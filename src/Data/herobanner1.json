@@ -1,24 +1,24 @@
 [
   {
-    "img": "/assets/img/hero_bg_2.jpg",
-    "title": "Precision Care for Every Car Fast Fixes Lasting Results",
-    "desc": "Repair times vary depending on the service. We provide an estimated time after our initial diagnostic check Specific details can be provided",
+    "img": "/assets/img/hero-slider-1.png",
+    "title": "Instant New Car Battery Replacement Wherever You Are, Whenever You Need",
+    "desc": "Dead battery? Our experts arrive fast with the right battery for your car, professionally installed on the spot — no towing, no delays.",
     "btnName": "Read more",
     "btnUrl": "/about",
     "number": "(208) 555-0112"
   },
   {
-    "img": "/assets/img/hero_bg_3.jpg",
-    "title": "Precision Care for Every Car Fast Fixes Lasting Results",
-    "desc": "Repair times vary depending on the service. We provide an estimated time after our initial diagnostic check Specific details can be provided",
+    "img": "/assets/img/hero-slider-2.png",
+    "title": "Flat Tyre? We Fix It On-Site in Minutes",
+    "desc": "No need to drive or tow. Our mobile tyre experts reach you fast and repair punctures safely so you’re back on the road without stress.",
     "btnName": "Read more",
     "btnUrl": "/about",
     "number": "(208) 555-0112"
   },
   {
-    "img": "/assets/img/hero_bg_2.jpg",
-    "title": "Precision Care for Every Car Fast Fixes Lasting Results",
-    "desc": "Repair times vary depending on the service. We provide an estimated time after our initial diagnostic check Specific details can be provided",
+    "img": "/assets/img/hero-slider-3.png",
+    "title": "Spare Tyre Fitted Fast So You Can Drive Without Worry",
+    "desc": "Don’t struggle alone. Our team quickly replaces your flat tyre with a spare and ensures everything is secured before you drive off.",
     "btnName": "Read more",
     "btnUrl": "/about",
     "number": "(208) 555-0112"

@@ -1,20 +1,20 @@
 [
   {
+    "img1": "/assets/img/avatar_1.png",
+    "subTitle": " IT Professional",
+    "title": "Rohit Sharma",
+    "desc": "My car battery died suddenly late at night, and 800 SPEEDY responded very fast. The technician arrived quickly and explained everything clearly. Battery replacement was smooth and professional. Highly reliable service when you really need help."  
+  },
+  {
     "img1": "/assets/img/avatar_2.png",
-    "subTitle": "Business Woman",
-    "title": "Kathryn Murphy",
-    "desc": "Insufficient cooling or heating, strange noises when the A/C is on, or foul car odors coming from the vents Flickering lights, non-functioning accessories, or trouble starting the vehicle"  
+    "subTitle": "Project Manager",
+    "title": "Sophia Laurent",
+    "desc": "I had a punctured tyre on the road and didn’t know what to do. 800 SPEEDY arrived on time and fixed it on the spot. The technician was skilled and well-equipped. Excellent service and very professional experience"
   },
   {
     "img1": "/assets/img/avatar_3.png",
-    "subTitle": "Business Man",
-    "title": "Cameron Williamson",
-    "desc": "Often recommended every 15,000 to 30,000 miles, depending on the vehicle age and condition Flickering lights, non-functioning accessories, or trouble starting the vehicle Body and paint services"
-  },
-  {
-    "img1": "/assets/img/avatar_2.png",
-    "subTitle": "Business Icon",
-    "title": "Kathryn Murphy",
-    "desc": "Insufficient cooling or heating, strange noises when the A/C is on, or foul car odors coming from the vents Flickering lights, non-functioning accessories, or trouble starting the vehicle"
+    "subTitle": " Business Owner",
+    "title": "Ahmed Al Mansoori",
+    "desc": "My tyre went flat during peak hours, and help arrived very fast. The spare tyre was changed safely and professionally. The team was polite and experienced. I will definitely recommend 800 SPEEDY to others."
   }
 ]

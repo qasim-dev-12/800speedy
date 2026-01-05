@@ -14,7 +14,7 @@ const Pricing1 = () => {
           <div className="cs_section_heading_left">
             <SectionTitle
                 SubTitle="our price plan"
-                Title="Choose The Right Plan Which You Need!"
+                Title="Choose The Right Service Which You Need"
             ></SectionTitle>
           </div>
         </div>

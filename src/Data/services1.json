@@ -1,50 +1,75 @@
 [
   {
-    "img": "/assets/img/service_img_1.jpg",
+    "img": "/assets/img/service_img_1.png",
     "icon": "/assets/img/icons/service_icon_1.svg",
-    "title": "Brake Safe Inspection",
-    "desc": "If your car struggles to start the lights dim when idling or the battery over three years old it may be time",   
+    "title": "TYRE REPAIR",
+    "desc": "Professional tyre repair service to fix minor damage and restore tyre safety without replacement.",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
-    "img": "/assets/img/service_img_2.jpg",
+    "img": "/assets/img/service_img_2.png",
     "icon": "/assets/img/icons/service_icon_2.svg",
-    "title": "Engine Tune-Up Plus",
-    "desc": "Proper insulation and ventilation are key  also offer Ice Guard services to prevent ice buildup and damage If your check battery",   
+    "title": " BUY NEW TYRE",
+    "desc": "Get the right new tyre for your vehicle with expert guidance and on-site installation support.",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
-    "img": "/assets/img/service_img_3.jpg",
+    "img": "/assets/img/service_img_3.png",
     "icon": "/assets/img/icons/service_icon_3.svg",
-    "title": "Battery Boost Check",
-    "desc": "If your check battery light comes on it's best to schedule a diagnostic service as soon as possible to identify address",   
+    "title": "TYRE REPLACEMENT",
+    "desc": "Complete tyre replacement service ensuring safe fitting and perfect balance for smooth driving.",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
-    "img": "/assets/img/service_img_7.jpg",
+    "img": "/assets/img/service_img_4.png",
     "icon": "/assets/img/icons/service_icon_6.svg",
-    "title": "Brake Safe Inspection",
-    "desc": "If your car struggles to start the lights dim when idling or the battery over three years old it may be time",   
+    "title": " AIR FILL",
+    "desc": "Quick and accurate tyre air pressure filling to improve fuel efficiency and driving safety.",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
-    "img": "/assets/img/service_img_5.jpg",
+    "img": "/assets/img/service_img_5.png",
     "icon": "/assets/img/icons/service_icon_4.svg",
-    "title": "Engine Tune-Up Plus",
-    "desc": "Proper insulation and ventilation are key  also offer Ice Guard services to prevent ice buildup and damage If your check battery",   
+    "title": " SPARE TYRE CHANGE",
+    "desc": "Fast spare tyre change service to get you back on the road safely during emergencies.",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
-    "img": "/assets/img/service_img_6.jpg",
+    "img": "/assets/img/service_img_6.png",
     "icon": "/assets/img/icons/service_icon_5.svg",
-    "title": "Battery Boost Check",
-    "desc": "If your check battery light comes on it's best to schedule a diagnostic service as soon as possible to identify address",   
+    "title": "FIX PUNCTURE TYRE",
+    "desc": "Efficient puncture fixing service that seals leaks safely without removing the tyre.",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
-  }  
+  } 
+  ,
+   {
+    "img": "/assets/img/service_img_7.png",
+    "icon": "/assets/img/icons/service_icon_5.svg",
+    "title": " NEW BATTERY INSTALLATION",
+    "desc": "On-site installation of new car batteries with proper testing and secure fitting.",   
+    "btnText": "READ MORE",
+    "btnLink": "/service/service-details"
+  }  ,
+   {
+    "img": "/assets/img/service_img_8.png",
+    "icon": "/assets/img/icons/service_icon_5.svg",
+    "title": "BATTERY HEALTH CHECK",
+    "desc": "Complete battery diagnostics to assess performance, charge levels, and lifespan.",   
+    "btnText": "READ MORE",
+    "btnLink": "/service/service-details"
+  } ,
+   {
+    "img": "/assets/img/service_img_9.png",
+    "icon": "/assets/img/icons/service_icon_5.svg",
+    "title": "QUICK JUMP START SERVICE",
+    "desc": "Fast jump-start assistance to revive dead batteries and get your car moving instantly.",   
+    "btnText": "READ MORE",
+    "btnLink": "/service/service-details"
+  }   
 ]
