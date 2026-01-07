@@ -5,7 +5,7 @@ const PricingCard = ({price,planName,title,subTitle,featureList,btnName,btnUrl})
         <div>
         <div className="cs_pricing_head cs_radius_50">
           <div className="cs_pricing_head_inner cs_radius_50 cs_white_bg">
-            <h2 className="cs_price_value cs_fs_56 cs_accent_color cs_mb_2">{price}</h2>
+            <h2 className="cs_price_value  cs_accent_color cs_mb_2">{price}</h2>
             <p className="cs_pricing_head_subtitle cs_fs_14 text-uppercase cs_accent_color mb-0">{planName}</p>
           </div>
         </div>

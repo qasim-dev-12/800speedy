@@ -1488,7 +1488,7 @@ textarea {
 }
 @media (max-width: 575px) {
   .cs_fs_70 {
-    font-size: 36px;
+    font-size: 24px;
   }
 }
 
@@ -2772,6 +2772,7 @@ textarea {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   opacity: 0;
+ 
 }
 .slick-slide.slick-current .cs_hero.cs_style_1 .cs_hero_text {
   opacity: 1;
@@ -3635,8 +3636,14 @@ textarea {
   .cs_hero.cs_style_1 {
     height: initial;
     max-height: initial;
-     min-height: 450px;
+     min-height: 320px;
   }
+  .cs_hero_subtitle{
+    margin-bottom: 0px !important;
+  }
+  .cs_height_lg_80 {
+        height: 10px;
+    }
 }
 .cs_hero.cs_style_1 .cs_hero_text {
   max-width: 680px;
@@ -3736,13 +3743,13 @@ textarea {
 @media (max-width: 1199px) {
   .cs_hero.cs_style_1.cs_type_1 {
     background-position: center left;
-    border: 2px solid green;
+    /* border: 2px solid green; */
   }
 }
 @media (max-width: 768px) {
   .cs_hero.cs_style_1.cs_type_1 {
     background-position: center left;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     padding-top: 10px;
   }
   .cs_slide .cs_hero.cs_style_1  {
@@ -7939,7 +7946,7 @@ label {
 @media (max-width: 768px) {
   .cs_logo_bg_shape,
   .cs_accent_color {
-    display: none !important;
+    /* display: none !important; */
   }
 }
 .two-line-title {
@@ -7955,4 +7962,10 @@ label {
  .button-wrapper-1{
   display: flex;
  }
+}
+ 
+@media (min-width: 769px) {
+ .cs_hero_text{
+  margin-top: 30px;
+}
 }

@@ -28,7 +28,7 @@ const Pricing1 = () => {
               <div className="col-lg-4">
               <div className="cs_pricing_table cs_style_1">
               <PricingCard
-                price="$100"
+                price="AED100"
                 // planName="Emergency Plan"
                 title="Spare Tyre Assistance"
                 subTitle="Starting from AED 100"
@@ -48,7 +48,7 @@ const Pricing1 = () => {
               <div className="col-lg-4 ">
               <div className="cs_pricing_table cs_style_1 active">
               <PricingCard
-                price="$150"
+                price="AED150"
                 // planName="Emergency Plan"
                 title="Fix Puncture Tyre"
                 subTitle="Starting from AED 150"
@@ -69,7 +69,7 @@ const Pricing1 = () => {
               <div className="col-lg-4">
               <div className="cs_pricing_table cs_style_1">
               <PricingCard
-                price="$175"
+                price="AED175"
                 // planName="Emergency Plan"
                 title=" New Battery Installation"
                 subTitle="Starting from AED 175"

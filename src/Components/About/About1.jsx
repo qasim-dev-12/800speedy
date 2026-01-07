@@ -88,7 +88,7 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,number,subTitle,Title
 
 
 
-                 <div class="button-wrapper-1">
+                 <div class="button-wrapper">
 
 
   <a href="https://api.whatsapp.com/send/?phone=0543170355"

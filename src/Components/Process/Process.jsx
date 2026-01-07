@@ -16,7 +16,7 @@ const Process = () => {
         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
           <SectionTitle2
             SubTitle="Working Process"
-            Title="Our Shimpol Working Process"
+            Title="Our Simple Working Process"
           ></SectionTitle2>
         </div>
         <div className="row cs_row_gap_30 cs_gap_y_30">
