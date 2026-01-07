@@ -77,8 +77,11 @@ const Services1 = () => {
                     <div className="cs_card_icon cs_center cs_heading_bg cs_mb_22">
                       <img src={item.icon} alt="Service Icon" />
                     </div>
-                    <h3 className="cs_card_title cs_fs_30 cs_mb_8">
-                      <Link to={item.btnLink}>{item.title}</Link></h3>
+                    <h3 className="cs_card_title cs_fs_30 cs_mb_8 two-line-title" >
+                      <Link  to={item.btnLink}>{item.title}</Link>
+                      
+                      
+                      </h3>
                     <p className="cs_card_subtitle cs_mb_18">{item.desc}</p>
                     <Link to={item.btnLink} className="cs_text_btn cs_style_1 cs_bold cs_heading_color">
                       <span className="cs_btn_text text-uppercase">{item.btnText}</span>

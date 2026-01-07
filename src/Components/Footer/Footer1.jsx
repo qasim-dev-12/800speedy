@@ -136,7 +136,8 @@ const Footer1 = () => {
           <div className="container">
             <div className="cs_footer_bottom_in">
               <div className="cs_footer_copyright">
-                Copyright © 2024 <a href="#">Cripar</a>. All Rights Reserved.
+               <a style={{color:"#fff"}} href="#">
+                © 800speedy 2026 | All Rights Reserved </a>
               </div>
               <div>
                 <img src="/assets/img/payment_card.svg" alt="" />

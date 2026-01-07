@@ -3,7 +3,7 @@
     "img": "/assets/img/service_img_1.png",
     "icon": "/assets/img/icons/service_icon_1.svg",
     "title": "TYRE REPAIR",
-    "desc": "Professional tyre repair service to fix minor damage and restore tyre safety without replacement.",   
+    "desc": "Professional tyre repair service to restore safety without replacement.",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
@@ -11,7 +11,7 @@
     "img": "/assets/img/service_img_2.png",
     "icon": "/assets/img/icons/service_icon_2.svg",
     "title": " BUY NEW TYRE",
-    "desc": "Get the right new tyre for your vehicle with expert guidance and on-site installation support.",   
+    "desc": "Get the right new tyre with expert guidance and on-site installation",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
@@ -19,7 +19,7 @@
     "img": "/assets/img/service_img_3.png",
     "icon": "/assets/img/icons/service_icon_3.svg",
     "title": "TYRE REPLACEMENT",
-    "desc": "Complete tyre replacement service ensuring safe fitting and perfect balance for smooth driving.",   
+    "desc": "Tyre replacement service ensuring safe fitting and smooth driving",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },

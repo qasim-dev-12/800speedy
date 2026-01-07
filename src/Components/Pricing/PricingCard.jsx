@@ -52,8 +52,27 @@ const PricingCard = ({price,planName,title,subTitle,featureList,btnName,btnUrl})
             </li>
             ))}
           </ul>
-          <Link to={btnUrl}
-            className="cs_pricing_btn cs_fs_14 cs_bold cs_heading_color text-uppercase cs_radius_10">{btnName}</Link>
+          {/* <Link to={btnUrl}
+            className="cs_pricing_btn cs_fs_14 cs_bold cs_heading_color text-uppercase cs_radius_10">{btnName}</Link> */}
+
+
+            <div class="button-wrapper">
+
+
+  <a href="https://api.whatsapp.com/send/?phone=971564018585"
+     class="custom-btn whatsapp-btn wobble-btn">
+    <img src="./Car Battery Replacement Dubai _ 24_7 Fast & Reliable Service_files/new-50.png" alt="WhatsApp" class="btn-icon" />
+    <span>WhatsApp Us</span>
+  </a>
+
+ 
+  {/* <a href="tel:+971564018585"
+     class="custom-btn call-btn wobble-btn">
+    <img src="./Car Battery Replacement Dubai _ 24_7 Fast & Reliable Service_files/phone-call.png" alt="Call Us" class="btn-icon" />
+    <span>Call Us</span>
+  </a> */}
+
+</div>
         </div>
       </div>
     );

@@ -33,7 +33,26 @@ const HeroBanner1 = () => {
                     <div className="cs_hero_text">
                       <h1 className="cs_hero_title cs_fs_70 cs_mb_18 wow fadeInUp">{item.title}</h1>
                       <p className="cs_hero_subtitle cs_mb_34">{item.desc}</p>
-                      <div className="cs_hero_btns">
+
+
+                      <div class="button-wrapper">
+
+
+  <a href="https://api.whatsapp.com/send/?phone=971564018585"
+     class="custom-btn whatsapp-btn wobble-btn">
+    <img src="./Car Battery Replacement Dubai _ 24_7 Fast & Reliable Service_files/new-50.png" alt="WhatsApp" class="btn-icon" />
+    <span>WhatsApp Us</span>
+  </a>
+
+ 
+  <a href="tel:+971564018585"
+     class="custom-btn call-btn wobble-btn">
+    <img src="./Car Battery Replacement Dubai _ 24_7 Fast & Reliable Service_files/phone-call.png" alt="Call Us" class="btn-icon" />
+    <span>Call Us</span>
+  </a>
+
+</div>
+                      {/* <div className="cs_hero_btns">
                         <Link to={item.btnUrl} className="cs_btn cs_style_1 wow fadeInLeft">
                           <span>{item.btnName}</span>
                           <i className="bi bi-arrow-right"></i>     
@@ -44,7 +63,7 @@ const HeroBanner1 = () => {
                           </span>
                           <a className="cs_fs_24 cs_semibold cs_heading_color">{item.number}</a>
                         </span>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

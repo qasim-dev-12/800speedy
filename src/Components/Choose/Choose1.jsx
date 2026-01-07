@@ -34,9 +34,28 @@ const Choose1 = ({img1,content,btnName,btnUrl,img2,img3}) => {
               </div>
                 ))}
 
-              <Link to={btnUrl} className="cs_btn cs_style_1">
+              {/* <Link to={btnUrl} className="cs_btn cs_style_1">
                 <span>{btnName}</span><i className="bi bi-arrow-right"></i>     
-              </Link>
+              </Link> */}
+
+
+              <div class="button-wrapper">
+
+
+  <a href="https://api.whatsapp.com/send/?phone=971564018585"
+     class="custom-btn whatsapp-btn wobble-btn">
+    <img src="./Car Battery Replacement Dubai _ 24_7 Fast & Reliable Service_files/new-50.png" alt="WhatsApp" class="btn-icon" />
+    <span>WhatsApp Us</span>
+  </a>
+
+ 
+  <a href="tel:+971564018585"
+     class="custom-btn call-btn wobble-btn">
+    <img src="./Car Battery Replacement Dubai _ 24_7 Fast & Reliable Service_files/phone-call.png" alt="Call Us" class="btn-icon" />
+    <span>Call Us</span>
+  </a>
+
+</div>
             </div>
 
             <div className="col-xl-4 wow fadeInRight">

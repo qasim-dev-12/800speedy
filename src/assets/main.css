@@ -3522,7 +3522,9 @@ textarea {
   color: var(--heading-color);
 }
 .cs_footer.cs_style_1 .cs_footer_copyright a {
-  color: var(--accent-color);
+  /* color: var(--accent-color); */
+  color: #fff;
+  text-decoration: none;
 }
 .cs_footer.cs_style_1 .cs_footer_copyright a:hover {
   color: var(--accent-color);
@@ -7591,3 +7593,346 @@ label {
   max-height: 8.9rem;
   /* border: 2px solid greenyellow; */
 }
+
+
+/* Desktop (default) — DO NOT apply 18px */
+
+/* Mobile — apply 18px ONLY below 768px */
+@media (max-width: 768px) {
+  .kt-adv-heading782_eb6abf-3d {
+    font-size: 18px !important;
+    line-height: 1.4em;
+  }
+}
+
+
+ /* BUTTON WRAPPER */
+  .button-wrapper {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* BASE BUTTON STYLE */
+  .custom-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 22px;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+    transition: 0.2s ease;
+  }
+
+  .custom-btn:hover {
+    transform: scale(1.05);
+  }
+
+  /* ICON */
+  .btn-icon {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+  }
+
+  /* WHATSAPP BUTTON */
+  .whatsapp-btn {
+    background-color: #25D366;
+    color: #fff;
+  }
+
+  /* CALL BUTTON */
+  .call-btn {
+    background-color: #D9F45F;
+    color: #000;
+  }
+
+  /* WOBBLE ANIMATION */
+  @keyframes wobble-btn {
+    0%   { transform: translateX(0) rotate(0deg); }
+    15%  { transform: translateX(-6px) rotate(-1deg); }
+    30%  { transform: translateX(6px) rotate(1deg); }
+    45%  { transform: translateX(-4px) rotate(-0.7deg); }
+    60%  { transform: translateX(3px) rotate(0.5deg); }
+    75%  { transform: translateX(-2px) rotate(-0.3deg); }
+    100% { transform: translateX(0) rotate(0deg); }
+  }
+
+  .wobble-btn {
+    animation: wobble-btn 1.8s ease-in-out infinite;
+    display: inline-flex;
+    will-change: transform;
+  }
+  @media (min-width: 320px) and (max-width: 768px) {
+  .kb-row-layout-id782_372cb6-ff .kt-row-column-wrap {
+    padding-top: 50px !important;
+  }
+}
+/* Sticky bottom buttons for mobile */
+@media (max-width: 768px) {
+  .button-wrapper {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* padding: 10px; */
+    /* background: #ffffff; */
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    z-index: 9999; /* stays on top */
+    box-shadow: 0 -3px 12px rgba(0,0,0,0.2);
+  }
+/* @media (min-width: 250px) and (max-width: 768px){
+	.button-wrapper a.custom-btn {
+    flex: 1;
+    text-align: center;
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+} */
+  .button-wrapper a.custom-btn {
+    flex: 1;
+    text-align: center;
+    padding: 12px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .button-wrapper .btn-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+
+  
+  body {
+    padding-bottom: 80px; /* prevent content from hiding behind sticky buttons */
+  }
+  
+  
+}
+
+/* PRICE BLOCK WRAPPER */
+.price-block {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+}
+
+/* LEFT BLACK PILL */
+.price-left {
+    background: #000000d0;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Small line spacing */
+.price-left .down {
+    font-weight: 700;
+    font-size: 11px;
+    opacity: .9;
+}
+
+/* RIGHT GRADIENT PRICE BOX */
+.price-right {
+    background: linear-gradient(90deg, #1e1e1e, #d1a326);
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+    transform-origin: center center;
+}
+
+/* AED */
+.price-right .aed {
+    font-weight: 800;
+    font-size: 15px;
+    opacity: .95;
+}
+
+/* Main “149” */
+.price-right .amount {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1;
+}
+
+/* Small star */
+.price-right sup {
+    font-size: 12px;
+    margin-left: 2px;
+}
+
+/* ===== PRICE ANIMATION ===== */
+
+/* Pop-in animation */
+@keyframes pricePop {
+    0%   { transform: scale(1.55); opacity: 0; }
+    40%  { transform: scale(1.10); opacity: 1; }
+    70%  { transform: scale(0.97); }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* Subtle continuous breathing */
+@keyframes priceBreath {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(0.97); }
+    100% { transform: scale(1); }
+}
+
+/* Trigger classes */
+.price-animate {
+    animation: pricePop 0.7s ease-out forwards,
+               priceBreath 2.4s ease-in-out 0.8s infinite;
+}
+
+/* MOBILE FIXES */
+@media (max-width: 360px) {
+    .price-left { padding: 6px 10px; font-size: 11px; }
+    .price-right { padding: 8px 12px; }
+    .price-right .amount { font-size: 22px; }
+}
+/* Final overlay-safe styles for price + buttons */
+
+/* Default: hide battery wrapper on desktop (mobile-only) */
+.battery-price-wrapper { display: none; }
+
+/* Mobile-only layout */
+@media (max-width: 768px) {
+
+  /* overlay children will be fixed; override defaults */
+  .battery-price-wrapper,
+  .button-wrapper {
+    position: fixed !important;
+    left: 12px !important;
+    right: 12px !important;
+    width: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    pointer-events: auto !important; /* wrappers are interactive where needed */
+    margin: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Price: sits above the buttons (close gap) */
+  .battery-price-wrapper {
+    bottom: 76px !important;        /* ADJUST this if you want it closer/further */
+    justify-content: center !important;
+    z-index: 2147483646 !important; /* below buttons, above page content */
+    pointer-events: none;           /* visual-only so clicks go to buttons — remove if clickable */
+  }
+
+  /* Price block internals (visual) */
+  .battery-price-wrapper .price-block {
+    pointer-events: none;
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .battery-price-wrapper .price-left {
+    background: linear-gradient(90deg,#111,#333);
+    color:#fff;
+    padding:8px 10px;
+    border-radius:8px;
+    font-weight:800;
+    text-transform:uppercase;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+  }
+  .battery-price-wrapper .price-right {
+    background: linear-gradient(90deg,#2d2a2a,#a67f13 40%,#f2b92a 100%);
+    padding:10px 14px;
+    border-radius:8px;
+    font-weight:900;
+    box-shadow: 0 12px 26px rgba(0,0,0,0.35);
+    transform-origin:center;
+    will-change:transform;
+    pointer-events: none;
+  }
+
+  /* Buttons: pinned to the bottom of viewport, on top of the price */
+  .button-wrapper {
+    bottom: 12px !important;        /* buttons sit near the screen bottom */
+    left: 12px !important;
+    right: 12px !important;
+    justify-content: space-between !important;
+    gap: 12px !important;
+    z-index: 2147483647 !important; /* above price and above everything else */
+    pointer-events: auto !important; /* buttons are interactive */
+    background: transparent !important; /* keep it unobtrusive */
+  }
+
+  .button-wrapper .custom-btn {
+    margin: 0 !important;
+    padding: 10px 14px !important;
+    border-radius: 10px !important;
+    min-width: 120px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.22) !important;
+  }
+
+  /* tiny screens: reduce sizes */
+  @media (max-width: 360px) {
+    .battery-price-wrapper { bottom: 68px !important; }
+    .button-wrapper { bottom: 10px !important; }
+    .battery-price-wrapper .price-right .amt { font-size: 20px !important; }
+  }
+
+  /* Respect reduced-motion */
+  @media (prefers-reduced-motion: reduce) {
+    .battery-price-wrapper .price-right,
+    .battery-price-wrapper .price-right.animate-once,
+    .battery-price-wrapper .price-right.breathing {
+      animation: none !important; transform:none !important;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .cs_logo_bg_shape,
+  .cs_accent_color {
+    display: none !important;
+  }
+}
+.two-line-title {
+  max-width: 280px !important;          /* 👈 force wrap */
+  margin: 0 auto;            /* center text */
+  text-align: center;
+  line-height: 1.4;
+}
+.cs_card_info {
+  height: 400px;
+}
+

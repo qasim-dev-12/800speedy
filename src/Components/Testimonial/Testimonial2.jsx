@@ -20,41 +20,41 @@ const Testimonial2 = () => {
               <div className="cs_tab_body p-0">
                 <div className={`cs_tab ${isActive === 'tab1' ? 'active' : ''}`} >
                     <TestimonialCard
-                        img="/assets/img/avatar_7.png"
-                        name="Austin Symphia"
-                        designation="Business Lady"
+                        img="/assets/img/avatar_1.png"
+                        name="Rohit Sharma"
+                        designation="IT Professional"
                         subtile="Testimonial"
                         title="Clients say About Us"
-                        content="Signs include unexplained increases in water bills,the sound of running water when no also fixtures are in use problems or anything damp or moldy kind spots on walls or ceilings, and  involving gas lines or major repairs on most services"
+                        content="My car battery died suddenly late at night, and 800 SPEEDY responded very fast. The technician arrived quickly and explained everything clearly. Battery replacement was smooth and professional. Highly reliable service when you really need help."
                     ></TestimonialCard>
                 </div>
                 <div className={`cs_tab ${isActive === 'tab2' ? 'active' : ''}`} >
                 <TestimonialCard
-                        img="/assets/img/avatar_4.png"
-                        name="Sophiya Mallinson"
-                        designation="Business Woman"
+                        img="/assets/img/avatar_2.png"
+                        name="Sophia Laurent"
+                        designation="Project Manager"
                         subtile="Testimonial"
                         title="Clients say About Us"
-                        content="Signs include unexplained increases in water bills, and the sound of running water when no also fixtures are in use problems or anything involving gas lines or major repairs on most services damp or moldy kind spots on walls or ceilings"
+                        content="I had a punctured tyre on the road and didn’t know what to do. 800 SPEEDY arrived on time and fixed it on the spot. The technician was skilled and well-equipped. Excellent service and very professional experience."
                     ></TestimonialCard>
                 </div>
                 <div className={`cs_tab ${isActive === 'tab3' ? 'active' : ''}`} >
                 <TestimonialCard
-                        img="/assets/img/avatar_8.png"
-                        name="Cameron Williamson"
-                        designation="Business Man"
+                        img="/assets/img/avatar_3.png"
+                        name="Ahmed Al Mansoori"
+                        designation="Business Owner"
                         subtile="Testimonial"
                         title="Clients say About Us"
-                        content="Signs include unexplained increases in water bills, damp or moldy kind spots on walls or ceilings, and the sound of running water when no also fixtures are in use problems or anything involving gas lines or major repairs on most services"
+                        content="My tyre went flat during peak hours, and help arrived very fast. The spare tyre was changed safely and professionally. The team was polite and experienced. I will definitely recommend 800 SPEEDY to others."
                     ></TestimonialCard>
                 </div>
               </div>
             </div>
             <div className="col-lg-2">
               <ul className="cs_tab_links cs_style_2 cs_mp_0">
-                <li className={`${isActive === 'tab1' ? 'active' : ''}`} onClick={() => setIsActive('tab1')}><a><img src="/assets/img/avatar_5.png" alt="Avatar" /></a></li>
-                <li className={`${isActive === 'tab2' ? 'active' : ''}`} onClick={() => setIsActive('tab2')} ><a><img src="/assets/img/avatar_4.png" alt="Avatar" /></a></li>
-                <li className={`${isActive === 'tab3' ? 'active' : ''}`} onClick={() => setIsActive('tab3')}><a><img src="/assets/img/avatar_6.png" alt="Avatar" /></a></li>
+                <li className={`${isActive === 'tab1' ? 'active' : ''}`} onClick={() => setIsActive('tab1')}><a><img src="/assets/img/avatar_1.png" alt="Avatar" /></a></li>
+                <li className={`${isActive === 'tab2' ? 'active' : ''}`} onClick={() => setIsActive('tab2')} ><a><img src="/assets/img/avatar_2.png" alt="Avatar" /></a></li>
+                <li className={`${isActive === 'tab3' ? 'active' : ''}`} onClick={() => setIsActive('tab3')}><a><img src="/assets/img/avatar_3.png" alt="Avatar" /></a></li>
               </ul>
             </div>
           </div>

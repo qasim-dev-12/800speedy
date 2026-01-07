@@ -20,7 +20,7 @@ const Pricing1 = () => {
         </div>
         <ul className="cs_tab_links cs_style_1 cs_type_1 cs_fs_18 cs_semibold cs_heading_color cs_heading_font cs_mp_0 wow fadeInUp">
           <li className={`${isActive === 'monthly' ? 'active' : ''}`} onClick={() => setIsActive('monthly')}><a>Monthly</a></li>
-          <li className={`${isActive === 'yearly' ? 'active' : ''}`} onClick={() => setIsActive('yearly')}><a>Yearly</a></li>
+          {/* <li className={`${isActive === 'yearly' ? 'active' : ''}`} onClick={() => setIsActive('yearly')}><a>Yearly</a></li> */}
         </ul>
         <div className="cs_tab_body">
           <div className={`cs_tab ${isActive === 'monthly' ? 'active' : ''}`} >
@@ -29,17 +29,17 @@ const Pricing1 = () => {
               <div className="cs_pricing_table cs_style_1">
               <PricingCard
                 price="$100"
-                planName="Emergency Plan"
-                title="Basic Plan"
-                subTitle="Exclusive for Small"
-                featureList={[
-                  "Rims & Tire Change",
-                  "Light Carpet Clean",
-                  "Wipe all Surfaces",
-                  "Wipe all Surfaces",
-                  "Interior Cleaning",
-                  "Water proofing",
-              ]}
+                // planName="Emergency Plan"
+                title="Spare Tyre Assistance"
+                subTitle="Starting from AED 100"
+               featureList={[
+  "On-site support",
+  "Safe lifting",
+  "Spare fitting",
+  "Wheel tightening",
+  "Emergency help",
+  "Quick turnaround",
+]}
                 btnName="Choose Plan"
                 btnUrl="/contact"
               ></PricingCard>
@@ -48,18 +48,18 @@ const Pricing1 = () => {
               <div className="col-lg-4 ">
               <div className="cs_pricing_table cs_style_1 active">
               <PricingCard
-                price="$160"
-                planName="Emergency Plan"
-                title="Stander Plan"
-                subTitle="Exclusive for Small"
-                featureList={[
-                  "Rims & Tire Change",
-                  "Light Carpet Clean",
-                  "Wipe all Surfaces",
-                  "Wipe all Surfaces",
-                  "Interior Cleaning",
-                  "Water proofing",
-              ]}
+                price="$150"
+                // planName="Emergency Plan"
+                title="Fix Puncture Tyre"
+                subTitle="Starting from AED 150"
+               featureList={[
+  "Puncture sealing",
+  "Tyre repair",
+  "Air refill",
+  "Leak inspection",
+  "Road safe",
+  "Fast service",
+]}
                 btnName="Choose Plan"
                 btnUrl="/contact"
               ></PricingCard>
@@ -69,18 +69,18 @@ const Pricing1 = () => {
               <div className="col-lg-4">
               <div className="cs_pricing_table cs_style_1">
               <PricingCard
-                price="$200"
-                planName="Emergency Plan"
-                title="Premium plan"
-                subTitle="Exclusive for Small"
-                featureList={[
-                  "Rims & Tire Change",
-                  "Light Carpet Clean",
-                  "Wipe all Surfaces",
-                  "Wipe all Surfaces",
-                  "Interior Cleaning",
-                  "Water proofing",
-              ]}
+                price="$175"
+                // planName="Emergency Plan"
+                title=" New Battery Installation"
+                subTitle="Starting from AED 175"
+               featureList={[
+  "Battery replacement",
+  "On-site install",
+  "Power testing",
+  "Secure fitting",
+  "Instant start",
+  "Reliable performance",
+]}
                 btnName="Choose Plan"
                 btnUrl="/contact"
               ></PricingCard>

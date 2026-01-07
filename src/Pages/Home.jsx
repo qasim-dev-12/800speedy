@@ -9,6 +9,7 @@ import Process from "../Components/Process/Process";
 import Project1 from "../Components/Project/Project1";
 import Services1 from "../Components/Services/Services1";
 import Testimonial1 from "../Components/Testimonial/Testimonial1";
+import Testimonial2 from "../Components/Testimonial/Testimonial2";
 
 const Home = () => {
     return (
@@ -67,14 +68,16 @@ const Home = () => {
                 subtitle2="Contact us"
                 title2="Book and Appointment"
             ></Contact1> */}
-            <Testimonial1
+            {/* <Testimonial1
                 subtitle="Testimonial"
                 title="Clients Say <br> About Us"
                 bgImg="/assets/img/testimonial_bg_1.jpg"
-            ></Testimonial1>
+            ></Testimonial1> */}
+
+             <Testimonial2></Testimonial2>
             <Pricing1></Pricing1>
             <Process></Process>
-            <Blog3></Blog3>
+            {/* <Blog3></Blog3> */}
         </div>
     );
 };

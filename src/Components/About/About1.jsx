@@ -70,7 +70,7 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,number,subTitle,Title
                    </li>
                     ))}
                  </ul>
-                 <div className="cs_about_btns">
+                 {/* <div className="cs_about_btns">
                    <Link to="/about" className="cs_btn cs_style_1 wow fadeInLeft">
                      <span>Read more</span>
                      <i className="bi bi-arrow-right"></i>   
@@ -84,7 +84,27 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,number,subTitle,Title
                        <p className="cs_fs_14 mb-0">{designation}</p>
                      </div>
                    </div>
-                 </div>
+                 </div> */}
+
+
+
+                 <div class="button-wrapper">
+
+
+  <a href="https://api.whatsapp.com/send/?phone=971564018585"
+     class="custom-btn whatsapp-btn wobble-btn">
+    <img src="./Car Battery Replacement Dubai _ 24_7 Fast & Reliable Service_files/new-50.png" alt="WhatsApp" class="btn-icon" />
+    <span>WhatsApp Us</span>
+  </a>
+
+ 
+  <a href="tel:+971564018585"
+     class="custom-btn call-btn wobble-btn">
+    <img src="./Car Battery Replacement Dubai _ 24_7 Fast & Reliable Service_files/phone-call.png" alt="Call Us" class="btn-icon" />
+    <span>Call Us</span>
+  </a>
+
+</div>
                </div>
              </div>
            </div>
