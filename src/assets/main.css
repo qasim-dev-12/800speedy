@@ -1488,7 +1488,7 @@ textarea {
 }
 @media (max-width: 575px) {
   .cs_fs_70 {
-    font-size: 48px;
+    font-size: 36px;
   }
 }
 
@@ -3635,6 +3635,7 @@ textarea {
   .cs_hero.cs_style_1 {
     height: initial;
     max-height: initial;
+     min-height: 450px;
   }
 }
 .cs_hero.cs_style_1 .cs_hero_text {
@@ -3647,6 +3648,7 @@ textarea {
     max-width: 500px;
   }
 }
+
 .cs_hero.cs_style_1 .cs_hero_subtitle {
   max-width: 620px;
 }
@@ -3734,12 +3736,25 @@ textarea {
 @media (max-width: 1199px) {
   .cs_hero.cs_style_1.cs_type_1 {
     background-position: center left;
+    border: 2px solid green;
   }
 }
-
+@media (max-width: 768px) {
+  .cs_hero.cs_style_1.cs_type_1 {
+    background-position: center left;
+    border: 2px solid green;
+    padding-top: 10px;
+  }
+  .cs_slide .cs_hero.cs_style_1  {
+    padding-bottom: 0;
+  }
+}
+@media (min-width:769px){
 .cs_slide .cs_hero.cs_style_1 {
   padding-bottom: 150px;
 }
+}
+
 
 /*--------------------------------------------------------------
   11. Iconbox
@@ -7324,6 +7339,7 @@ label {
   position: relative;
   z-index: 3;
   max-width: 225px;
+  height: 100%;
  
 }
 .cs_logo_bg_shape {
@@ -7446,7 +7462,7 @@ label {
     height: 80px;
  } 
  .cs_site_branding {
-  max-width: 180px;
+  height: 100% !important;
 } 
 .cs_logo_bg_shape svg {
   height: 80px;
@@ -7590,7 +7606,7 @@ label {
   display: none;
 }
 .header-logo{
-  max-height: 8.9rem;
+  max-height: 100%;
   /* border: 2px solid greenyellow; */
 }
 
@@ -7935,4 +7951,8 @@ label {
 .cs_card_info {
   height: 400px;
 }
-
+@media (max-width: 768px) {
+ .button-wrapper-1{
+  display: flex;
+ }
+}

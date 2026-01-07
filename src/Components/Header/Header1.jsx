@@ -10,9 +10,9 @@ export default function Header1({ variant }) {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
       if (currentScrollPos > prevScrollPos) {
-        setIsSticky('cs-gescout_sticky'); // Scrolling down
+        setIsSticky('cs-gescout_show cs-gescout_sticky cs-gescout_sticky'); // Scrolling down
       } else if (currentScrollPos !== 0) {
-        setIsSticky('cs-gescout_show cs-gescout_sticky'); // Scrolling up
+        setIsSticky('cs-gescout_show cs-gescout_sticky cs-gescout_sticky'); // Scrolling up
       } else {
         setIsSticky();
       }

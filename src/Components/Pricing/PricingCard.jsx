@@ -59,10 +59,10 @@ const PricingCard = ({price,planName,title,subTitle,featureList,btnName,btnUrl})
             <div class="button-wrapper">
 
 
-  <a href="https://api.whatsapp.com/send/?phone=971564018585"
+  <a href="https://api.whatsapp.com/send/?phone=0543170355"
      class="custom-btn whatsapp-btn wobble-btn">
-    <img src="./Car Battery Replacement Dubai _ 24_7 Fast & Reliable Service_files/new-50.png" alt="WhatsApp" class="btn-icon" />
-    <span>WhatsApp Us</span>
+    <img src="/assets/img/icons/whtsapp.png" alt="WhatsApp" class="btn-icon" />
+    <span>WhatsApp</span>
   </a>
 
  
