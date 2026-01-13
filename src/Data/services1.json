@@ -5,7 +5,43 @@
     "title": "TYRE REPAIR",
     "desc": "Professional tyre repair service to restore safety without replacement.",   
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "/service/service-details",
+    "slug": "tyre-repair",
+    "heading_title": "Professional Tyre Repair Service",
+     "p1": "Our tyre repair service is designed to fix minor tyre damage quickly and safely without replacing the tyre. Whether it’s a nail, screw, or slow air leak, our technicians identify the issue and repair it on-site.We use professional repair tools and safety checks to ensure your tyre is roadworthy before you drive away",
+    "p2": "This service helps extend tyre life while keeping you safe on the road.Our mobile tyre repair service saves time by fixing the issue at your location. From inspection to air refill, every step is handled with care to ensure safety, durability, and reliable performance",
+    "pS":"We focus on quality workmanship, safety standards, and fast response times. Every repair is done using professional tools and tested before completion.",
+    
+    "point1": "Where Your Ride Comes First",
+    "point2": "Engineered for Performance",
+    "point3": "Precision Repairs, Guaranteed",
+    "point4": "Get Back on the Road Faster",
+   "faqs": [
+  {
+    "title": "What Services Do You Offer?",
+    "desc": "We provide on-site tyre repair, puncture fixing, air filling, spare tyre change, and battery-related emergency services."
+  },
+  {
+    "title": "Do You Repair Tyres On-Site?",
+    "desc": "Yes, our technicians repair tyres at your location without the need for towing or workshop visits."
+  },
+  {
+    "title": "Is Tyre Repair Safe?",
+    "desc": "Yes, we follow professional repair standards and inspect the tyre thoroughly before completing the service."
+  },
+  {
+    "title": "How Long Does Tyre Repair Take?",
+    "desc": "Most tyre repairs are completed within 20–30 minutes, depending on the damage."
+  }
+]
+,
+  
+    "image": "/assets/img/01-tyre-repair-service-banner.png",
+    
+    "img1": "/assets/img/service/repair-tyre-1.png",
+    "img2": "/assets/img/service/repair-tyre-2.png",
+    "img3": "/assets/img/service/repair-tyre-3.png"
+    
   },
   {
     "img": "/assets/img/service_img_2.png",
@@ -13,15 +49,84 @@
     "title": " BUY NEW TYRE",
     "desc": "Get the right new tyre with expert guidance and on-site installation",   
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "/service/service-details",
+    "slug": "buy-new-tyre",
+   "heading_title": "Buy the Right Tyre for Your Vehicle",
+     "p1": "Choosing the right tyre is essential for safety, performance, and comfort. Our buy new tyre service helps you select the correct tyre based on your vehicle type, driving conditions, and manufacturer recommendations.",
+   "p2": "We supply high-quality tyres and provide on-site installation support, ensuring proper fitting, alignment, and safety checks so you can drive with confidence. Our experts guide you through tyre selection and ensure proper installation on-site. From choosing the correct size to secure fitting, we handle everything with precision and care.",
+    "pS":"We ensure every new tyre meets quality standards and is installed professionally. Our focus is on safety, performance, and long-term reliability.",
+    
+    "point1": "Genuine Quality Tyres",
+    "point2": "Proper Fitment Guaranteed",
+    "point3": "Performance Checked",
+    "point4": "Safe Driving Experience",
+"faqs": [
+  {
+    "title": "Do You Help Choose the Right Tyre?",
+    "desc": "Yes, our technicians help you select the correct tyre based on your car model and driving needs."
   },
+  {
+    "title": "Do You Install the Tyre On-Site?",
+    "desc": "Yes, we provide on-site tyre installation without the need to visit a workshop."
+  },
+  {
+    "title": "Are the Tyres Brand New?",
+    "desc": "Yes, we supply only new, high-quality tyres suitable for your vehicle."
+  },
+  {
+    "title": "How Long Does Tyre Installation Take?",
+    "desc": "Tyre installation usually takes 30–45 minutes, depending on the vehicle."
+  }
+]
+,
+    "image": "/assets/img/02-buy-new-tyre-service-banner.png",
+   
+    "img1": "/assets/img/service/big-new-tyre.png",
+    "img2": "/assets/img/service/side new tyre.png",
+    "img3": "/assets/img/service/side new tyre 2.png"
+}
+   
+,
   {
     "img": "/assets/img/service_img_3.png",
     "icon": "/assets/img/icons/tyre-replica.svg",
     "title": "TYRE REPLACEMENT",
     "desc": "Tyre replacement service ensuring safe fitting and smooth driving",   
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "/service/service-details",
+    "slug": "tyre-replacement",
+    "heading_title": "Complete Tyre Replacement Service",
+     "p1": "When a tyre is worn out or damaged beyond repair, replacement is the safest option. Our tyre replacement service ensures your vehicle gets a properly fitted, road-ready tyre without unnecessary delays.",
+ "p2": "We remove the old tyre, install the new one securely, and perform essential safety checks so you can drive smoothly and confidently after the service.\nOur tyre replacement process focuses on safety, balance, and proper installation. Every replacement is handled carefully to ensure stability, performance, and long-term reliability.",
+    "pS":"We follow proper tyre replacement standards using professional tools and trained technicians. Each job is completed with safety checks before handing the vehicle back to you.",
+    
+    "point1": "Safe Tyre Removal",
+    "point2": "Proper Installation",
+    "point3": "Balanced Fitment",
+    "point4": "Smooth Driving",
+"faqs": [
+  {
+    "title": "When Should a Tyre Be Replaced?",
+    "desc": "Tyres should be replaced if they are worn out, damaged, or unsafe to repair."
+  },
+  {
+    "title": "Do You Replace Tyres On-Site?",
+    "desc": "Yes, we provide on-site tyre replacement without requiring a workshop visit."
+  },
+  {
+    "title": "Is Tyre Replacement Safe at the Roadside?",
+    "desc": "Yes, our technicians follow safety procedures and use proper equipment."
+  },
+  {
+    "title": "How Long Does Tyre Replacement Take?",
+    "desc": "Most tyre replacements are completed within 30–45 minutes."
+  }
+]
+,
+    "image": "/assets/img/service/tyre-replacement-service-banner.png",
+   
+    "img1": "/assets/img/service/tyre-rep-big.png",
+    "img2": "/assets/img/service/tyre-repSide-1.png"
   },
   {
     "img": "/assets/img/service_img_4.png",
@@ -29,7 +134,41 @@
     "title": " AIR FILL",
     "desc": "Quick and accurate tyre air pressure filling to improve fuel efficiency and driving safety.",   
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "/service/service-details",
+    "slug": "air-fill",
+   "p1": "Maintaining correct tyre pressure is essential for safety, fuel efficiency, and tyre lifespan. Our tyre air fill service ensures your tyres are inflated to the recommended pressure for smooth and stable driving.",
+  "p2": "Whether your tyre pressure is low due to temperature changes or daily use, our technicians provide fast and accurate air filling at your location without delay.\nOur air fill service helps prevent uneven tyre wear and improves handling. We ensure all tyres are evenly inflated to keep your vehicle performing at its best.",
+  "pS": "We use accurate pressure tools and follow manufacturer recommendations. Every tyre is checked carefully to ensure safe and balanced inflation.",
+
+  "point1": "Accurate Pressure",
+  "point2": "Even Inflation",
+  "point3": "Improved Safety",
+  "point4": "Better Performance",
+
+"faqs": [
+  {
+    "title": "Why Is Tyre Air Pressure Important?",
+    "desc": "Correct tyre pressure improves safety, handling, and fuel efficiency."
+  },
+  {
+    "title": "Do You Provide Air Fill On-Site?",
+    "desc": "Yes, we offer on-site air filling at your location."
+  },
+  {
+    "title": "How Often Should Tyre Pressure Be Checked?",
+    "desc": "Tyre pressure should be checked at least once a month or before long drives."
+  },
+  {
+    "title": "How Long Does Air Fill Take?",
+    "desc": "Most air fill services are completed within 10–15 minutes."
+  }
+]
+,
+    "image": "/assets/img/04-air-fill-service-banner.png",
+    
+    "img1": "/assets/img/service/BIG IMAGE-AIR FILL.png",
+    "img2": "/assets/img/service/SIDE IMAGE-AIR-FILL1.png",
+    "img3": "/assets/img/service/SIDE IMAGE-AIR-FILL2.png"
   },
   {
     "img": "/assets/img/service_img_5.png",
@@ -37,7 +176,40 @@
     "title": " SPARE TYRE CHANGE",
     "desc": "Fast spare tyre change service to get you back on the road safely during emergencies.",   
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "/service/service-details",
+    "slug": "spare-tyre-change",
+      "p1": "A flat tyre can stop your journey at any time. Our spare tyre change service is designed to get you moving again quickly by safely replacing your damaged tyre with a spare at your location.",
+  "p2": "Our trained technicians handle the entire process carefully, ensuring the spare tyre is fitted securely and all safety checks are completed before you continue driving.\nOur spare tyre change service ensures correct fitting, secure tightening, and vehicle stability so you can safely reach your destination or nearest service center.",
+  "pS": "We follow proper safety procedures and use professional tools for every spare tyre change. Your safety and vehicle stability are our top priorities.",
+
+  "point1": "Safe Vehicle Lifting",
+  "point2": "Secure Spare Fitment",
+  "point3": "Proper Wheel Tightening",
+  "point4": "Road-Ready Check",
+"faqs": [
+  {
+    "title": "Do You Change Spare Tyres On-Site?",
+    "desc": "Yes, we provide spare tyre change services at your location."
+  },
+  {
+    "title": "Is It Safe to Drive on a Spare Tyre?",
+    "desc": "Yes, spare tyres are safe for short distances and moderate speeds."
+  },
+  {
+    "title": "What If I Don’t Have a Spare Tyre?",
+    "desc": "If no spare is available, we can assist with other tyre solutions where possible."
+  },
+  {
+    "title": "How Long Does a Spare Tyre Change Take?",
+    "desc": "Most spare tyre changes are completed within 15–25 minutes."
+  }
+]
+,
+    "image": "/assets/img/05-spare-tyre-change-service-banner.png",
+    
+    "img1": "/assets/img/service/big-spare-tyre.png",
+    "img2": "/assets/img/service/side-spare-tyre.png",
+    "img3": "/assets/img/service/side-spare-tyre-2.png"
   },
   {
     "img": "/assets/img/service_img_6.png",
@@ -45,7 +217,41 @@
     "title": "FIX PUNCTURE TYRE",
     "desc": "Efficient puncture fixing service that seals leaks safely without removing the tyre.",   
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "/service/service-details",
+    "slug": "fix-puncture-tyre",
+   "p1": "A punctured tyre can cause sudden delays and safety risks. Our puncture fixing service repairs leaks quickly and effectively without removing the tyre, saving you time and hassle.",
+  "p2": "We use professional repair methods to seal punctures securely and check air pressure before completing the job, ensuring your tyre is safe for continued driving.\nOur puncture fixing process ensures the leak is sealed correctly and the tyre is tested before use, helping prevent further damage and improving safety on the road.",
+  "pS": "We follow safe repair standards using quality materials and tools. Every puncture fix is tested to ensure durability and road safety.",
+
+  "point1": "Secure Leak Sealing",
+  "point2": "Professional Tools",
+  "point3": "Pressure Tested",
+  "point4": "Road Safety Check",
+
+ "faqs": [
+  {
+    "title": "Can All Punctures Be Repaired?",
+    "desc": "Most small punctures in the tread area can be repaired safely."
+  },
+  {
+    "title": "Do You Fix Punctures On-Site?",
+    "desc": "Yes, our technicians fix punctures at your location."
+  },
+  {
+    "title": "Is Puncture Repair Safe?",
+    "desc": "Yes, we follow professional repair standards to ensure safety."
+  },
+  {
+    "title": "How Long Does Puncture Fixing Take?",
+    "desc": "Most puncture repairs take around 20–30 minutes."
+  }
+]
+,
+    "image": "/assets/img/06-fix-puncture-tyre-service-banner.png",
+   
+    "img1": "/assets/img/service/fix-puncture-big.png",
+    "img2": "/assets/img/service/fix-puncture-1.png",
+    "img3": "/assets/img/service/fix-puncture-2.png"
   } 
   ,
    {
@@ -54,7 +260,41 @@
     "title": " NEW BATTERY INSTALLATION",
     "desc": "On-site installation of new car batteries with proper testing and secure fitting.",   
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "/service/service-details",
+    "slug": "new-battery-installation",
+     "p1": "A dead or weak battery can leave you stranded without warning. Our new battery installation service provides a quick and reliable solution by replacing your old battery with a suitable new one at your location.",
+  "p2": "Our technicians ensure proper fitting, secure connections, and basic testing so your vehicle starts smoothly and performs reliably after installation.\nWe handle the entire battery replacement process, from removing the old battery to installing and testing the new one, ensuring a hassle-free and safe service experience.",
+  "pS": "We use reliable batteries and follow proper installation procedures. Every installation is tested to ensure safe and consistent performance.",
+
+  "point1": "Quality Batteries",
+  "point2": "Secure Installation",
+  "point3": "Proper Testing",
+  "point4": "Instant Start",
+
+"faqs": [
+  {
+    "title": "Do You Install Batteries On-Site?",
+    "desc": "Yes, we provide on-site battery installation at your location."
+  },
+  {
+    "title": "Do You Check Battery Compatibility?",
+    "desc": "Yes, we ensure the battery matches your vehicle’s requirements."
+  },
+  {
+    "title": "What Happens to the Old Battery?",
+    "desc": "The old battery is safely removed and inspected or disposed of responsibly."
+  },
+  {
+    "title": "How Long Does Battery Installation Take?",
+    "desc": "Most battery installations are completed within 20–30 minutes."
+  }
+]
+,
+"image": "/assets/img/07-new-battery-installation-service-banner.png",
+   
+    "img1": "/assets/img/service/new-battery-big.png",
+    "img2": "/assets/img/service/new-battery-1.png",
+    "img3": "/assets/img/service/new-battery-2.png"
   }  ,
    {
     "img": "/assets/img/service_img_8.png",
@@ -62,14 +302,54 @@
     "title": "BATTERY HEALTH CHECK",
     "desc": "Complete battery diagnostics to assess performance, charge levels, and lifespan.",   
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "/service/service-details",
+    "slug": "battery-health-check",
+     "p1": "A weak battery can fail without warning. Our battery health check service helps identify potential issues early by testing battery charge, performance, and overall condition.",
+  "p2": "With professional diagnostic tools, we provide quick and accurate results so you know whether your battery is healthy, needs charging, or requires replacement.\nOur battery health check ensures accurate assessment and helps prevent sudden breakdowns. Regular checks improve battery lifespan and vehicle reliability.",
+  "pS": "We use professional diagnostic equipment to deliver reliable results. Every check is performed carefully to ensure accuracy and safety.",
+
+  "point1": "Accurate Diagnostics",
+  "point2": "Early Detection",
+  "point3": "Professional Tools",
+  "point4": "Reliable Results",
+
+"faqs": [
+  {
+    "title": "Why Is a Battery Health Check Important?",
+    "desc": "It helps detect battery issues early and prevents sudden breakdowns."
+  },
+  {
+    "title": "How Long Does a Battery Health Check Take?",
+    "desc": "Most checks are completed within 10–15 minutes."
+  },
+  {
+    "title": "Do You Provide On-Site Battery Testing?",
+    "desc": "Yes, we perform battery health checks at your location."
+  },
+  {
+    "title": "Will You Recommend Replacement If Needed?",
+    "desc": "Yes, we advise replacement only if the battery condition requires it."
+  }
+  
+],
+"image": "/assets/img/08-battery-health-check-service-banner.png",
+   
+    "img1": "/assets/img/service/battery-health-big.png",
+    "img2": "/assets/img/service/battery-health-1.png",
+    "img3": "/assets/img/service/battery-health-2.png"
+
   } ,
    {
     "img": "/assets/img/service_img_9.png",
     "icon": "/assets/img/icons/quick jump.svg",
     "title": "QUICK JUMP START SERVICE",
-    "desc": "Fast jump-start assistance to revive dead batteries and get your car moving instantly.",   
+    "desc": "Fast jumpStart assistance to revive dead batteries and get your car moving instantly.",   
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "/service/service-details",
+    "slug": "quick-jumpStart-service"
   }   
 ]
+
+
+
+

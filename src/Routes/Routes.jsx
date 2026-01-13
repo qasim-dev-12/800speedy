@@ -34,7 +34,7 @@ export const router = createBrowserRouter([
           element: <ServicesPage></ServicesPage>,
         },
         {
-          path: "/service/service-details",
+          path: "/service/:slug",
           element: <ServiceDetailsPage></ServiceDetailsPage>,
         }, 
         {

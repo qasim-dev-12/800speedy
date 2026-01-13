@@ -112,7 +112,7 @@ const Footer2 = () => {
                     </li>
                     <li>
                     <i className="bi bi-envelope-fill"></i>
-                      <a href="mailto:cripar@gmail.com">cripar@gmail.com</a>
+                      <a href="mailto:800speeedy@gmail.com">800speeedy@gmail.com</a>
                     </li>
                   </ul>
                 </div>
@@ -164,7 +164,7 @@ const Footer2 = () => {
           <div className="container">
             <div className="cs_footer_bottom_in">
               <div className="cs_footer_copyright">
-                Copyright © 2024 <a href="#">Cripar</a>. All Rights Reserved.
+                Copyright © 2024 <a href="#">800speeedy</a>. All Rights Reserved.
               </div>
               <div>
                 <img src="/assets/img/payment_card.svg" alt="" />

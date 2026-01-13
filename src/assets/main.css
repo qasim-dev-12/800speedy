@@ -6856,11 +6856,11 @@ label {
  }
   .cs_site_header.cs_style_1 .cs_main_header_center {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     height: 100%;
     width: 100%;
-    max-width: calc(100% - 300px);
+    /* max-width: calc(100% - 300px); */
  }
   .cs_site_header.cs_style_1 .cs_main_header_left {
     height: 100%;

@@ -8,7 +8,7 @@ const Footer1 = () => {
             {/* <div className="cs_footer_newsletter_left cs_accent_bg cs_center">
               <img src="/assets/img/logo50.png" alt="Logo" className="wow fadeInLeft" />
             </div> */}
-            <div className="cs_footer_newsletter_right">
+            {/* <div className="cs_footer_newsletter_right">
               <h3 className="cs_fs_24 cs_semibold cs_white_color mb-0">Subscribe now to get latest updates</h3>
               <form action="#" className="cs_footer_newsletter_form">
                 <input type="text" placeholder="Enter Your Email" />
@@ -16,7 +16,7 @@ const Footer1 = () => {
                   <span>Subscribe</span>
                 </button>
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="cs_main_footer cs_white_color">
@@ -96,7 +96,7 @@ const Footer1 = () => {
                     </li>
                     <li>
                     <i className="bi bi-envelope-fill"></i>
-                      <a href="mailto:cripar@gmail.com">cripar@gmail.com</a>
+                      <a href="mailto:800speeedy@gmail.com">800speeedy@gmail.com</a>
                     </li>
                   </ul>
                 </div>

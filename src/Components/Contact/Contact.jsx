@@ -15,7 +15,7 @@ const Contact = () => {
                     <i className="bi bi-telephone-inbound-fill"></i></div>
                       <div className="cs_iconbox_info">
                         <h3 className="cs_fs_18 cs_semibold cs_mb_2">Phone Number :</h3>
-                        <a href="tel:+111(564)56825">+111 (564) 568 25</a><br/>
+                        <a href="tel:+111(564)56825">0543170355</a><br/>
                         <a href="tel:+111(564)56826">+111 (564) 568 26</a>
                       </div>
                   </div>
@@ -24,8 +24,8 @@ const Contact = () => {
                     <i className="bi bi-envelope-fill"></i></div>
                       <div className="cs_iconbox_info">
                         <h3 className="cs_fs_18 cs_semibold cs_mb_2">Email Address :</h3>
-                        <a href="mailTo:needhelpcripar@gmail.com">needhelpcripar@gmail.com</a><br/>
-                        <a href="mailTo:criparneedhelp@gmail.com">criparneedhelp@gmail.com</a>
+                        <a href="mailTo:needhelp800speeedy@gmail.com">needhelp800speeedy@gmail.com</a><br/>
+                        <a href="mailTo:800speeedyneedhelp@gmail.com">800speeedyneedhelp@gmail.com</a>
                       </div>
                   </div>
                   <div className="cs_iconbox cs_style_5">

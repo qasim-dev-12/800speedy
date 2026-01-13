@@ -2,7 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import data from '../../Data/faq.json';
 
-const ServiceDetails = () => {
+const ServiceDetails = ({service}) => {
+  console.log("Service in Component:", service);
 
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
@@ -30,10 +31,10 @@ const ServiceDetails = () => {
           <div className="row cs_row_gap_30 cs_gap_y_60">
             <div className="col-xl-8 col-lg-7">
               <div className="cs_service_details">
-                <img src="/assets/img/service_banner.jpg" alt="Service Banner" />
-                <h2>We give the best Services</h2>
-                <p>For your car repair services business, there are several key details to consider, which can help define the services you offer, your target market, and how you want to present your brand. Here’s a breakdown encourage current customers to refer any friends by offering discounts on future services.</p>
-                <p>Encourage satisfied customers to leave positive reviews on platforms like Google and Yelp certified mechanics and kinds provide ongoing training to keep up with evolving car technologies.</p>
+                <img src={service?.image} alt="Service Banner" />
+                <h2>{service?.heading_title}</h2>
+                <p>{service?.p1}</p>
+                <p>{service?.p2}  </p>
                 <div className="row">
                   <div className="col-md-6">
                     <img src="/assets/img/service_img_8.jpg" alt="Post Image" />
@@ -42,9 +43,9 @@ const ServiceDetails = () => {
                     <img src="/assets/img/service_img_9.jpg" alt="Post Image" />
                   </div>
                 </div>
-                <p>Share repair tips, showcase completed projects, and engage with your audience on platforms like Facebook, Instagram an and YouTube flyers, billboards, or local radio to promote your services in the community Encourage current customers to refer friends by offering discounts on future services team up with local businesses such as car dealerships or insurance companies to generate referrals </p>
+                {/* <p>Share repair tips, showcase completed projects, and engage with your audience on platforms like Facebook, Instagram an and YouTube flyers, billboards, or local radio to promote your services in the community Encourage current customers to refer friends by offering discounts on future services team up with local businesses such as car dealerships or insurance companies to generate referrals </p> */}
                 <h2>Service Quality</h2>
-                <p>Invest in high-quality diagnostic tools, lifts, and other essential repair equipment certified mechanics and provide ongoing training to keep up with evolving car technologies.</p>
+                <p>{service?.pS}</p>
                 <div className="row">
                   <div className="col-xl-6">
                     <img src="/assets/img/service_img_10.jpg" alt="Post Image" />
@@ -54,22 +55,22 @@ const ServiceDetails = () => {
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                        <span>Where Your Ride Comes First</span>
+                        <span>{service?.point1}</span>
                       </li>
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                        <span>Engineered for Performance</span>
+                        <span>{service?.point2}</span>
                       </li>
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                        <span>Precision Repairs, Guaranteed</span>
+                        <span>{service?.point3}</span>
                       </li>
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                        <span>Get Back on the Road Faster</span>
+                        <span>{service?.point4}</span>
                       </li>
                     </ul>
                   </div>
@@ -78,7 +79,11 @@ const ServiceDetails = () => {
               <div className="cs_height_20 cs_height_lg_20"></div>
               <div className="cs_accordians_wrapper cs_style_1 p-0">
 
-              {data.map((item, index)=>(
+              {
+              
+              
+              
+              service?.faqs?.map((item, index)=>(
                 <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : "" }`} >
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <h2 className="cs_fs_18 cs_semibold mb-0">{item.title}</h2>
@@ -91,7 +96,11 @@ const ServiceDetails = () => {
                     <p className="mb-0">{item.desc}</p>
                   </div>
                 </div>
-                ))}
+                ))
+                
+                
+                
+                }
 
               </div>
             </div>
@@ -130,7 +139,7 @@ const ServiceDetails = () => {
                       <img src="/assets/img/icons/phone-call_2.svg" alt="Phone Icon" />
                     </div>
                     <p className="cs_white_color cs_mb_5">Requesting A Call</p>
-                    <a href="tel:+111(564)56825" className="cs_call_text cs_fs_30 cs_bold cs_heading_font cs_mb_23">+111 (564) 568 25</a>
+                    <a href="tel:+111(564)56825" className="cs_call_text cs_fs_30 cs_bold cs_heading_font cs_mb_23">0543170355</a>
                     <p className="cs_card_subtitle cs_white_color cs_mb_33">Invest in high-quality diagnostic tools, lifts, and other essential repair equipment certified mechanics and provide</p>
                     <Link to="/about" className="cs_card_btn">
                       <span>Read more</span>

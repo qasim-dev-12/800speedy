@@ -60,7 +60,7 @@ const Home = () => {
                 Title="Contact Information"
                 subTitle="It is a long established fact that a reader be by the readable distracted  layout."
                 address="2972 Westheimer Rd. <br/>Santa Ana, Illinois 5486"
-                email="Cripar@gmail.com <br/>InfoCripar@gmal.com"
+                email="800speeedy@gmail.com <br/>Info800speeedy@gmal.com"
                 number="(402) 4521 5458 44 <br/> (123) 2154 5464 55"
                 clientNumber="5,400"
                 img="/assets/img/contact_img_1.jpg"

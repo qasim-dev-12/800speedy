@@ -43,15 +43,15 @@ export default function Header1({ variant }) {
               <ul className="cs_header_contact_list cs_mp_0">
                 <li>
                 <i className="bi bi-telephone-fill"></i>
-                  <a href="tel:+111(564)56825">+111 (564) 568 25</a>
+                  <a href="tel:+111(564)56825">0543170355</a>
                 </li>
                 <li>
                 <i className="bi bi-envelope-fill"></i>
-                  <a href="mailto:cripar@gmail.com">cripar@gmail.com</a>
+                  <a href="mailto:800speeedy@gmail.com">800speeedy@gmail.com</a>
                 </li>
                 <li>
                 <i className="bi bi-geo-alt-fill"></i>
-                  <span>Abu Dhabi - United Arab Emirates</span>
+                  <span>Sajaya 7, Shop 14 B, Ras Al Khor, Dubai</span>
                 </li>
               </ul>
             </div>
@@ -113,14 +113,14 @@ export default function Header1({ variant }) {
                   <Nav setMobileToggle={setMobileToggle} />
                 </div>
             </div>
-            <div className="cs_main_header_right">
+            {/* <div className="cs_main_header_right">
             <div className="solutek-btn2">
             <Link to="/contact" className="cs_btn cs_style_1">
                 <span>Get a Quote</span>
                 <i className="bi bi-arrow-right"></i>
                 </Link>             
 					  </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
