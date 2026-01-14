@@ -31,7 +31,7 @@ const ServiceDetails = ({service}) => {
           <div className="row cs_row_gap_30 cs_gap_y_60">
             <div className="col-xl-8 col-lg-7">
               <div className="cs_service_details">
-                <img src={service?.image} alt="Service Banner" />
+                <img src={service?.main} alt="Service Banner" />
                 <h2>{service?.heading_title}</h2>
                 <p>{service?.p1}</p>
                 <p>{service?.p2}  </p>
@@ -48,7 +48,7 @@ const ServiceDetails = ({service}) => {
                 <p>{service?.pS}</p>
                 <div className="row">
                   <div className="col-xl-6">
-                    <img src="/assets/img/service_img_10.jpg" alt="Post Image" />
+                    <img src={service?.img3} alt="Post Image" />
                   </div>
                   <div className="col-xl-6">
                     <ul className="cs_list cs_style_1 cs_fs_18 cs_semibold cs_heading_font cs_mp_0">

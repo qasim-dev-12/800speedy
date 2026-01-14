@@ -21,15 +21,55 @@ export default function Nav({ setMobileToggle }) {
           </ul>
         </DropDown> */}
       </li>
-      {/* <li className="menu-item-has-children">
+      <li className="menu-item-has-children">
         <Link to="/service" onClick={() => setMobileToggle(false)}>
           Services
         </Link>
         <DropDown>
           <ul>
             <li>
-              <Link to="/service" onClick={() => setMobileToggle(false)}>
-                Services
+              <Link to="/service/tyre-repair" onClick={() => setMobileToggle(false)}>
+                Tyre Repair
+              </Link>
+            </li>
+              <li>
+              <Link to="/service/buy-new-tyre" onClick={() => setMobileToggle(false)}>
+                Buy New Tyre 
+              </Link>
+            </li>
+             <li>
+              <Link to="/service/tyre-replacement" onClick={() => setMobileToggle(false)}>
+                Tyre Replacement
+              </Link>
+            </li>
+              <li>
+              <Link to="/service/air-fill" onClick={() => setMobileToggle(false)}>
+                Air Fill
+              </Link>
+            </li>
+              <li>
+              <Link to="/service/spare-tyre-change" onClick={() => setMobileToggle(false)}>
+                Spare Tyre Change
+              </Link>
+            </li>
+             {/* <li>
+              <Link to="/service/fix-puncture-tyre" onClick={() => setMobileToggle(false)}>
+                Fix Puncture Tyre
+              </Link>
+            </li> */}
+             <li>
+              <Link to="/service/fix-puncture-tyre" onClick={() => setMobileToggle(false)}>
+                Fix Puncture Tyre
+              </Link>
+            </li>
+              <li>
+              <Link to="/service/new-battery-installation" onClick={() => setMobileToggle(false)}>
+                New Battery Installation
+              </Link>
+            </li>
+            <li>
+              <Link to="/service/battery-health-check" onClick={() => setMobileToggle(false)}>
+                Battery Health Check
               </Link>
             </li>
             <li>
@@ -40,7 +80,7 @@ export default function Nav({ setMobileToggle }) {
           </ul>
         </DropDown>
 
-      </li>   */}
+      </li>  
       <li >
         <Link to="/service">
           Tyre Repair

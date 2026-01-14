@@ -3,10 +3,11 @@ import loadBackgroudImages from "./loadBackgroudImages";
 import { Link } from "react-router-dom";
 
 const BreadCumb = ({bgImg,Title}) => {
+  console.log("BreadCumb bgImg:", bgImg);
     
     useEffect(() => {
         loadBackgroudImages();
-      }, []);
+      }, [bgImg]);
 
     return (
 

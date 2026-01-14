@@ -87,12 +87,12 @@ const Footer1 = () => {
                   <ul className="cs_footer_contact_list cs_mp_0">
                     <li>
                     <i className="bi bi-geo-alt-fill"></i>
-                      Musaffah - M-6 - Abu Dhabi United Arab Emirates
+                      Sajaya 7, Shop 14 B, Ras Al Khor, Dubai
                     </li>
                     <li>
                     <i className="bi bi-telephone-fill"></i>
-                      <a href="tel:+(163)-5565-06979">+(163)-5565-06979</a> <br/>
-                      <a href="tel:+(163)-5565-07989">+(163)-5565-07989</a>
+                      <a href="tel:0543170355">0543170355</a> <br/>
+                      <a href="tel:05431703559">0543170355</a>
                     </li>
                     <li>
                     <i className="bi bi-envelope-fill"></i>

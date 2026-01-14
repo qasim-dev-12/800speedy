@@ -6928,7 +6928,7 @@ label {
     width: 230px;
     background-color:#fff;
     position: absolute;
-    border-top: 2px solid #ff3c00;
+    border-top: 2px solid #00f7fe;
     -webkit-box-shadow: 0px 1px 2px 0px rgba(2, 0, 181, 0.1);
     box-shadow: 0px 1px 2px 0px rgba(2, 0, 181, 0.1);
     padding: 10px 0;
@@ -7411,7 +7411,7 @@ label {
   align-items: center;
 }
 .cs_header_contact_list li i {
-  color: var(--accent-color);
+  color: var(--gray2-color);
 }
 .cs_top_header_left .cs_header_contact_list a, .cs_top_header_left .cs_header_contact_list span{
   color: #fff;

@@ -7,13 +7,14 @@ const ServiceDetailsPage = () => {
     const {slug} = useParams();
     const service = services.find(svc => svc.slug === slug);
     console.log("Service Details:", service);
+    console.log("service image:", service?.image);
 
     return (
         <div className="serviceDetails">
-                        {/* <BreadCumb
-                            bgImg="/assets/img/page_heading_1.jpg"
+                        <BreadCumb
+                            bgImg={service?.image}
                             Title="Service Details"
-                        ></BreadCumb>  */}
+                        ></BreadCumb> 
             <ServiceDetails service={service}></ServiceDetails>           
         </div>
     );

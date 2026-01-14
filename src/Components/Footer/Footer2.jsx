@@ -22,7 +22,7 @@ const Footer2 = () => {
                 </div>
                 <div className="">
                   <h3 className="cs_fs_24 cs_semibold cs_white_color cs_mb_2">Call us 24/7</h3>
-                  <p className="mb-0 cs_white_color"><a href="mailto:+(163)-5565-06979">+(163)-5565-06979</a></p>
+                  <p className="mb-0 cs_white_color"><a href="mailto:0543170355">0543170355</a></p>
                 </div>
               </li>
               <li>
@@ -103,12 +103,12 @@ const Footer2 = () => {
                   <ul className="cs_footer_contact_list cs_mp_0">
                     <li>
                     <i className="bi bi-geo-alt-fill"></i>
-                      Musaffah - M-6 - Abu Dhabi United Arab Emirates
+                      Sajaya 7, Shop 14 B, Ras Al Khor, Dubai
                     </li>
                     <li>
                     <i className="bi bi-telephone-fill"></i>
-                      <a href="tel:+(163)-5565-06979">+(163)-5565-06979</a> <br/>
-                      <a href="tel:+(163)-5565-07989">+(163)-5565-07989</a>
+                      <a href="tel:0543170355">0543170355</a> <br/>
+                      <a href="tel:0543170355">0543170355</a>
                     </li>
                     <li>
                     <i className="bi bi-envelope-fill"></i>

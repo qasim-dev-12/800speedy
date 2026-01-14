@@ -37,10 +37,11 @@
 ,
   
     "image": "/assets/img/01-tyre-repair-service-banner.png",
+    "main":"/assets/img/tyre-repair-main-action.png",
     
     "img1": "/assets/img/service/repair-tyre-1.png",
     "img2": "/assets/img/service/repair-tyre-2.png",
-    "img3": "/assets/img/service/repair-tyre-3.png"
+    "img3": "/assets/img/sericequalityimgs/tyre-repair-service-quality.png"
     
   },
   {
@@ -80,10 +81,11 @@
 ]
 ,
     "image": "/assets/img/02-buy-new-tyre-service-banner.png",
+    "main":"/assets/img/buy-new-tyre-main-display.png",
    
     "img1": "/assets/img/service/big-new-tyre.png",
     "img2": "/assets/img/service/side new tyre.png",
-    "img3": "/assets/img/service/side new tyre 2.png"
+    "img3": "/assets/img/sericequalityimgs/buy-new-tyre-service-quality.png"
 }
    
 ,
@@ -123,10 +125,12 @@
   }
 ]
 ,
-    "image": "/assets/img/service/tyre-replacement-service-banner.png",
+    "image": "/assets/img/03-tyre-replacement-service-banner.png",
+    "main":"/assets/img/tyre-replacement-main-installation.png",
    
     "img1": "/assets/img/service/tyre-rep-big.png",
-    "img2": "/assets/img/service/tyre-repSide-1.png"
+    "img2": "/assets/img/service/tyre-repSide-1.png",
+    "img3": "/assets/img/sericequalityimgs/tyre-replacement-service-quality.png"
   },
   {
     "img": "/assets/img/service_img_4.png",
@@ -165,10 +169,10 @@
 ]
 ,
     "image": "/assets/img/04-air-fill-service-banner.png",
-    
+    "main" :"/assets/img/air-fill-main-inflation.png",
     "img1": "/assets/img/service/BIG IMAGE-AIR FILL.png",
     "img2": "/assets/img/service/SIDE IMAGE-AIR-FILL1.png",
-    "img3": "/assets/img/service/SIDE IMAGE-AIR-FILL2.png"
+   "img3": "/assets/img/sericequalityimgs/air-fill-service-quality.png"
   },
   {
     "img": "/assets/img/service_img_5.png",
@@ -206,10 +210,10 @@
 ]
 ,
     "image": "/assets/img/05-spare-tyre-change-service-banner.png",
-    
+    "main" :"/assets/img/spare-tyre-change-main.png",
     "img1": "/assets/img/service/big-spare-tyre.png",
     "img2": "/assets/img/service/side-spare-tyre.png",
-    "img3": "/assets/img/service/side-spare-tyre-2.png"
+ "img3": "/assets/img/sericequalityimgs/spare-tyre-change-service-quality.png"
   },
   {
     "img": "/assets/img/service_img_6.png",
@@ -248,10 +252,10 @@
 ]
 ,
     "image": "/assets/img/06-fix-puncture-tyre-service-banner.png",
-   
+   "main" :"/assets/img/fix-puncture-main.png",
     "img1": "/assets/img/service/fix-puncture-big.png",
     "img2": "/assets/img/service/fix-puncture-1.png",
-    "img3": "/assets/img/service/fix-puncture-2.png"
+    "img3": "/assets/img/sericequalityimgs/fix-puncture-tyre-service-quality.png"
   } 
   ,
    {
@@ -291,10 +295,10 @@
 ]
 ,
 "image": "/assets/img/07-new-battery-installation-service-banner.png",
-   
+   "main":"/assets/img/new-battery-installation-main.png",
     "img1": "/assets/img/service/new-battery-big.png",
     "img2": "/assets/img/service/new-battery-1.png",
-    "img3": "/assets/img/service/new-battery-2.png"
+    "img3": "/assets/img/sericequalityimgs/new-battery-installation-service-quality.png"
   }  ,
    {
     "img": "/assets/img/service_img_8.png",
@@ -333,10 +337,10 @@
   
 ],
 "image": "/assets/img/08-battery-health-check-service-banner.png",
-   
+   "main" :"/assets/img/battery-health-check-main.png",
     "img1": "/assets/img/service/battery-health-big.png",
     "img2": "/assets/img/service/battery-health-1.png",
-    "img3": "/assets/img/service/battery-health-2.png"
+ "img3": "/assets/img/sericequalityimgs/battery-health-check-service-quality.png"
 
   } ,
    {
@@ -346,7 +350,9 @@
     "desc": "Fast jumpStart assistance to revive dead batteries and get your car moving instantly.",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details",
-    "slug": "quick-jumpStart-service"
+    "slug": "quick-jumpStart-service",
+    "img3": "/assets/img/sericequalityimgs/quick-jumpstart-service-quality.png"
+    
   }   
 ]
 
