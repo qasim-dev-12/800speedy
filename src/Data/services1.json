@@ -39,8 +39,8 @@
     "image": "/assets/img/01-tyre-repair-service-banner.png",
     "main":"/assets/img/tyre-repair-main-action.png",
     
-    "img1": "/assets/img/service/repair-tyre-1.png",
-    "img2": "/assets/img/service/repair-tyre-2.png",
+    "img1": "/assets/img/twoservicesimgs/01a.png",
+    "img2": "/assets/img/twoservicesimgs/01b.png",
     "img3": "/assets/img/sericequalityimgs/tyre-repair-service-quality.png"
     
   },
@@ -83,8 +83,8 @@
     "image": "/assets/img/02-buy-new-tyre-service-banner.png",
     "main":"/assets/img/buy-new-tyre-main-display.png",
    
-    "img1": "/assets/img/service/big-new-tyre.png",
-    "img2": "/assets/img/service/side new tyre.png",
+    "img1": "/assets/img/twoservicesimgs/02a.png",
+    "img2": "/assets/img/twoservicesimgs/02b.png",
     "img3": "/assets/img/sericequalityimgs/buy-new-tyre-service-quality.png"
 }
    
@@ -128,8 +128,8 @@
     "image": "/assets/img/03-tyre-replacement-service-banner.png",
     "main":"/assets/img/tyre-replacement-main-installation.png",
    
-    "img1": "/assets/img/service/tyre-rep-big.png",
-    "img2": "/assets/img/service/tyre-repSide-1.png",
+    "img1": "/assets/img/twoservicesimgs/03a.png",
+    "img2": "/assets/img/twoservicesimgs/03b.png",
     "img3": "/assets/img/sericequalityimgs/tyre-replacement-service-quality.png"
   },
   {
@@ -170,8 +170,8 @@
 ,
     "image": "/assets/img/04-air-fill-service-banner.png",
     "main" :"/assets/img/air-fill-main-inflation.png",
-    "img1": "/assets/img/service/BIG IMAGE-AIR FILL.png",
-    "img2": "/assets/img/service/SIDE IMAGE-AIR-FILL1.png",
+    "img1": "/assets/img/twoservicesimgs/04a.png",
+    "img2": "/assets/img/twoservicesimgs/04b.png",
    "img3": "/assets/img/sericequalityimgs/air-fill-service-quality.png"
   },
   {
@@ -211,8 +211,8 @@
 ,
     "image": "/assets/img/05-spare-tyre-change-service-banner.png",
     "main" :"/assets/img/spare-tyre-change-main.png",
-    "img1": "/assets/img/service/big-spare-tyre.png",
-    "img2": "/assets/img/service/side-spare-tyre.png",
+    "img1": "/assets/img/twoservicesimgs/05a.png",
+    "img2": "/assets/img/twoservicesimgs/05b.png",
  "img3": "/assets/img/sericequalityimgs/spare-tyre-change-service-quality.png"
   },
   {
@@ -252,9 +252,9 @@
 ]
 ,
     "image": "/assets/img/06-fix-puncture-tyre-service-banner.png",
-   "main" :"/assets/img/fix-puncture-main.png",
-    "img1": "/assets/img/service/fix-puncture-big.png",
-    "img2": "/assets/img/service/fix-puncture-1.png",
+   "main" :"/assets/img/fix-puncture-tyre-main.png",
+    "img1": "/assets/img/twoservicesimgs/06a.png",
+    "img2": "/assets/img/twoservicesimgs/06b.png",
     "img3": "/assets/img/sericequalityimgs/fix-puncture-tyre-service-quality.png"
   } 
   ,
@@ -296,8 +296,8 @@
 ,
 "image": "/assets/img/07-new-battery-installation-service-banner.png",
    "main":"/assets/img/new-battery-installation-main.png",
-    "img1": "/assets/img/service/new-battery-big.png",
-    "img2": "/assets/img/service/new-battery-1.png",
+    "img1": "/assets/img/twoservicesimgs/07.png",
+    "img2": "/assets/img/twoservicesimgs/07-b.png",
     "img3": "/assets/img/sericequalityimgs/new-battery-installation-service-quality.png"
   }  ,
    {
@@ -338,8 +338,8 @@
 ],
 "image": "/assets/img/08-battery-health-check-service-banner.png",
    "main" :"/assets/img/battery-health-check-main.png",
-    "img1": "/assets/img/service/battery-health-big.png",
-    "img2": "/assets/img/service/battery-health-1.png",
+    "img1": "/assets/img/twoservicesimgs/08-b1.png",
+    "img2": "/assets/img/twoservicesimgs/08-b2.png",
  "img3": "/assets/img/sericequalityimgs/battery-health-check-service-quality.png"
 
   } ,
@@ -351,7 +351,44 @@
     "btnText": "READ MORE",
     "btnLink": "/service/service-details",
     "slug": "quick-jumpStart-service",
-    "img3": "/assets/img/sericequalityimgs/quick-jumpstart-service-quality.png"
+
+
+    "p1": "A dead battery can leave you stranded at the worst time. Our quick jump start service provides immediate assistance to restart your vehicle and get you moving again.",
+  "p2": "Our technicians arrive equipped with professional jump-start tools and follow safe procedures to ensure a smooth and damage-free start.\nWe ensure the jump start is done safely and confirm your vehicle is running properly before completing the service, giving you confidence to continue your journey.",
+
+  "pS": "We prioritize safety and quick response during every jump start service. Proper tools and tested procedures ensure reliable results.",
+
+  "point1": "Fast Response",
+  "point2": "Safe Procedures",
+  "point3": "Professional Equipment",
+  "point4": "Reliable Restart",
+
+  "faqs": [
+    {
+      "title": "Is Jump Starting Safe for My Car?",
+      "desc": "Yes, our technicians follow safe jump-start procedures to protect your vehicle."
+    },
+    {
+      "title": "Do You Offer Jump Start On-Site?",
+      "desc": "Yes, we provide on-site jump start assistance at your location."
+    },
+    {
+      "title": "Will Jump Start Fix a Bad Battery?",
+      "desc": "Jump starting helps temporarily; a weak battery may need replacement."
+    },
+    {
+      "title": "How Long Does Jump Start Service Take?",
+      "desc": "Most jump start services are completed within 10–20 minutes."
+    }
+  ],
+
+  "image": "/assets/img/09-quick-jump-start-service-banner.png",
+  "main": "/assets/img/quick-jump-start-main.png",
+  "img1": "/assets/img/twoservicesimgs/09a-jumper-cables-connection.png",
+  "img2": "/assets/img/twoservicesimgs/09b-engine-start-success.png",
+  "img3": "/assets/img/sericequalityimgs/quick-jump-start-service-quality.png"
+    
+  
     
   }   
 ]

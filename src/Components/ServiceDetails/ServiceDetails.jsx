@@ -37,10 +37,10 @@ const ServiceDetails = ({service}) => {
                 <p>{service?.p2}  </p>
                 <div className="row">
                   <div className="col-md-6">
-                    <img src="/assets/img/service_img_8.jpg" alt="Post Image" />
+                    <img src={service?.img1} alt="Post Image" />
                   </div>
                   <div className="col-md-6">
-                    <img src="/assets/img/service_img_9.jpg" alt="Post Image" />
+                    <img src={service?.img2} alt="Post Image" />
                   </div>
                 </div>
                 {/* <p>Share repair tips, showcase completed projects, and engage with your audience on platforms like Facebook, Instagram an and YouTube flyers, billboards, or local radio to promote your services in the community Encourage current customers to refer friends by offering discounts on future services team up with local businesses such as car dealerships or insurance companies to generate referrals </p> */}
