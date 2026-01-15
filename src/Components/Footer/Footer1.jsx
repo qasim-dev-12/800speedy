@@ -148,7 +148,7 @@ const Footer1 = () => {
           <div className="container">
             <div className="cs_footer_bottom_in">
               <div className="cs_footer_copyright">
-               <a style={{color:"#fff"}} href="#">
+               <a style={{color:"#fff"}} href="https://staytop.ae/">
                 © 800speedy 2026 | All Rights Reserved </a>
               </div>
               {/* <div>

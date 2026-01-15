@@ -50,7 +50,7 @@ const Pricing1 = () => {
               <PricingCard
                 price="AED150"
                 // planName="Emergency Plan"
-                title="Fix Puncture Tyre"
+                title="Fix Puncture Tyre Onsite"
                 subTitle="Starting from AED 150"
                featureList={[
   "Puncture sealing",

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const PricingCard = ({price,planName,title,subTitle,featureList,btnName,btnUrl}) => {
     return (
-        <div>
+        <div style={{width:"300px"}}>
         <div className="cs_pricing_head cs_radius_50">
           <div className="cs_pricing_head_inner cs_radius_50 cs_white_bg">
             <h2 className="cs_price_value  cs_accent_color cs_mb_2">{price}</h2>
@@ -56,11 +56,11 @@ const PricingCard = ({price,planName,title,subTitle,featureList,btnName,btnUrl})
             className="cs_pricing_btn cs_fs_14 cs_bold cs_heading_color text-uppercase cs_radius_10">{btnName}</Link> */}
 
 
-            <div class="button-wrapper">
+            <div class="button-wrapper wrapper-2" style={{paddingTop:"-10px"}} >
 
 
   <a href="https://api.whatsapp.com/send/?phone=0543170355"
-     class="custom-btn whatsapp-btn wobble-btn">
+     class="custom-btn whatsapp-btn wobble-btn" style={{marginTop:"20px"}}>
     <img src="/assets/img/icons/whtsapp.png" alt="WhatsApp" class="btn-icon" />
     <span>WhatsApp</span>
   </a>

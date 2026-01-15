@@ -19,7 +19,7 @@ const AboutPage = () => {
                 expNumber="58"
                 expYers="Years"
                 expTitle="Experience"
-                number="(208) 555-0112"
+                number="0543170355"
                 subTitle="Our About"
                 Title="Speedy Repairs Quality Results"
                 Content="We are professional and committed to service is a statement that highlights the companys professionalism and dedication to providing"

@@ -31,11 +31,11 @@ const HeroBanner1 = () => {
                 <div className="cs_hero cs_style_1 cs_type_1 cs_bg_filed cs_primary_bg cs_center" data-background={item.img}>
                   <div className="container">
                     <div className="cs_hero_text">
-                      <h1 className="cs_hero_title cs_fs_70 cs_mb_18 wow fadeInUp">{item.title}</h1>
+                      <h1 className="cs_hero_title cs_fs_64 cs_mb_18 wow fadeInUp">{item.title}</h1>
                       <p className="cs_hero_subtitle cs_mb_34">{item.desc}</p>
 
 
-                      <div class="button-wrapper-1">
+                      <div class="button-wrapper-1 hero-whatsapp">
 
 
   <a href="https://api.whatsapp.com/send/?phone=0543170355"

@@ -22,7 +22,7 @@ const Home = () => {
                 expNumber="15"
                 expYers="Years"
                 expTitle="Experience"
-                number="(208) 555-0112"
+                number="0543170355"
                 subTitle="Our About"
                 Title="Speedy Repairs. Quality Results."
                 Content="We are professional, reliable, and committed to delivering fast on-site automotive assistance when you need it most. With over 15 years of hands-on experience, our team ensures every service is handled with precision, safety, and care — getting you back on the road without unnecessary delays."

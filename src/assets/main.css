@@ -159,7 +159,7 @@ button {
 
 a:hover {
   text-decoration: none;
-  color: #46afb3;
+  color: #ffffff;
 }
 
 table {
@@ -1456,6 +1456,11 @@ textarea {
     font-size: 38px;
   }
 }
+@media (max-width: 768px) {
+  .cs_fs_50 {
+    font-size: 30px;
+  }
+}
 
 .cs_fs_56 {
   font-size: 56px;
@@ -1475,6 +1480,19 @@ textarea {
   .cs_fs_64 {
     font-size: 50px;
   }
+}
+@media (max-width: 768px) {
+  .cs_fs_64 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 426px) {
+  .cs_fs_64 {
+    font-size: 30px;
+    line-height: 1;
+  }
+  
+  
 }
 
 .cs_fs_70 {
@@ -3648,6 +3666,16 @@ textarea {
         height: 10px;
     }
 }
+
+
+@media (max-width: 426px) {
+  .cs_hero.cs_style_1 {
+    height: initial;
+    max-height: initial;
+     min-height: 264px;
+  }
+ 
+}
 .cs_hero.cs_style_1 .cs_hero_text {
   max-width: 680px;
   position: relative;
@@ -3815,6 +3843,7 @@ textarea {
   padding: 12px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+  
 }
 @media (max-width: 575px) {
   .cs_iconbox.cs_style_2 .cs_iconbox_icon {
@@ -3825,9 +3854,11 @@ textarea {
 .cs_iconbox.cs_style_2 img {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  
 }
 .cs_iconbox.cs_style_2:hover .cs_iconbox_icon {
   background-color: var(--accent-color);
+  
 }
 .cs_iconbox.cs_style_2:hover img {
   -webkit-filter: brightness(0) invert(1);
@@ -7617,12 +7648,28 @@ label {
 .cs_accordian .cs_accordian_body {
   display: none;
 }
-.header-logo{
+
+
+
+@media (min-width:769px) {
+  .header-logo{
   max-height: 65%;
   /* border: 3px solid yellow; */
-  margin-top: auto;
+  /* margin-top: auto; */
   
   /* border: 2px solid greenyellow; */
+  margin-top: auto;
+}
+}
+  
+@media (max-width:769px) {
+  .header-logo{
+  max-height: 65%;
+  /* border: 3px solid yellow; */
+  /* margin-top: auto; */
+  
+  /* border: 2px solid greenyellow; */
+}
 }
 
 
@@ -7640,7 +7687,7 @@ label {
  /* BUTTON WRAPPER */
   .button-wrapper {
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
 
   /* BASE BUTTON STYLE */
@@ -7717,7 +7764,7 @@ label {
     justify-content: space-around;
     gap: 10px;
     z-index: 9999; /* stays on top */
-    box-shadow: 0 -3px 12px rgba(0,0,0,0.2);
+    /* box-shadow: 0 -3px 12px rgba(0,0,0,0.2); */
   }
 /* @media (min-width: 250px) and (max-width: 768px){
 	.button-wrapper a.custom-btn {
@@ -7968,7 +8015,7 @@ label {
 }
 @media (max-width: 768px) {
  .button-wrapper-1{
-  display: flex;
+  display: none;
  }
 }
  
@@ -7976,4 +8023,7 @@ label {
  .cs_hero_text{
   margin-top: 30px;
 }
+}
+.cs_iconbox_icon img {
+  filter: brightness(0);
 }
