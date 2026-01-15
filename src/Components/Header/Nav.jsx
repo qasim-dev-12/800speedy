@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Nav({ setMobileToggle }) {
   return (
-    <ul className="cs_nav_list" style={{border:"2px solid green"}}>
+    <ul className="cs_nav_list" >
       <li >
         <Link to="/">Home</Link>
         {/* <DropDown>
@@ -23,7 +23,7 @@ export default function Nav({ setMobileToggle }) {
       </li>
       <li className="menu-item-has-children">
         <Link to="/service" onClick={() => setMobileToggle(false)}>
-          Services
+          All Services
         </Link>
         <DropDown>
           <ul>
@@ -73,8 +73,8 @@ export default function Nav({ setMobileToggle }) {
               </Link>
             </li>
             <li>
-              <Link to="/service/service-details" onClick={() => setMobileToggle(false)}>
-                Service Details
+              <Link to="/service/quick-jumpStart-service" onClick={() => setMobileToggle(false)}>
+                Quick JumpStart
               </Link>
             </li>
           </ul>
@@ -82,29 +82,29 @@ export default function Nav({ setMobileToggle }) {
 
       </li>  
       <li >
-        <Link to="/service">
+        <Link to="/service/tyre-repair">
           Tyre Repair
         </Link>
     
 
       </li>    
       <li >
-        <Link to="/service">
+        <Link to="/service/buy-new-tyre">
           Buy New Tyre 
         </Link>
     
 
       </li>
        <li >
-        <Link to="/service">
-          Tyre Replacement
+        <Link to="/service/new-battery-installation">
+          Battery Installation
         </Link>
     
 
       </li>  
        <li >
-        <Link to="/service">
-          Air Fill
+        <Link to="/service/tyre-replacement">
+          Tyre Replacement
         </Link>
     
 
@@ -116,13 +116,7 @@ export default function Nav({ setMobileToggle }) {
     
 
       </li>
-       <li >
-        <Link to="/service">
-        Fix Puncture Tyre
-        </Link>
-    
-
-      </li>
+      
         
 
 

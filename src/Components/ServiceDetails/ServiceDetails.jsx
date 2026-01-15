@@ -110,24 +110,40 @@ const ServiceDetails = ({service}) => {
                   <div className="cs_separator"></div>
                   <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">All Services</h3>
                   <ul className="cs_categories cs_fs_18 cs_semibold cs_mp_0">
-                    <li><Link to="/service/service-details">
-                      <span>Structural Mastery</span>
+                    <li><Link to="/service/tyre-repair">
+                      <span>Tyre Repair</span>
                       <span><i className="bi bi-arrow-right"></i></span>
                     </Link></li>
-                    <li><Link to="/service/service-details">
-                      <span>Foundation Forte</span>
+                    <li><Link to="/service/buy-new-tyre">
+                      <span>Buy New Tyre</span>
                       <span><i className="bi bi-arrow-right"></i></span>
                     </Link></li>
-                    <li><Link to="/service/service-details">
-                      <span>Build Smart Solutions</span>
+                    <li><Link to="/service/tyre-replacement">
+                      <span>Tyre Replacement</span>
                       <span><i className="bi bi-arrow-right"></i></span>
                     </Link></li>
-                    <li><Link to="/service/service-details">
-                      <span>Precision Builds</span>
+                    <li><Link to="/service/air-fill">
+                      <span>Air Fill</span>
                       <span><i className="bi bi-arrow-right"></i></span>
                     </Link></li>
-                    <li><Link to="/service/service-details">
-                      <span>Apex Remodeling</span>
+                    <li><Link to="/service/spare-tyre-change">
+                      <span>Spare Tyre Change</span>
+                      <span><i className="bi bi-arrow-right"></i></span>
+                    </Link></li>
+                     <li><Link to="/service/fix-puncture-tyre">
+                      <span>Fix Puncture Tyre</span>
+                      <span><i className="bi bi-arrow-right"></i></span>
+                    </Link></li>
+                      <li><Link to="/service/new-battery-installation">
+                      <span>New Battery Installation</span>
+                      <span><i className="bi bi-arrow-right"></i></span>
+                    </Link></li>
+                      <li><Link to="/service/battery-health-check">
+                      <span>Battery health check</span>
+                      <span><i className="bi bi-arrow-right"></i></span>
+                    </Link></li>
+                      <li><Link to="/service/quick-jumpStart-service">
+                      <span>Quick JumpStart</span>
                       <span><i className="bi bi-arrow-right"></i></span>
                     </Link></li>
                   </ul>
