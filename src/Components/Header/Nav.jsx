@@ -21,7 +21,38 @@ export default function Nav({ setMobileToggle }) {
           </ul>
         </DropDown> */}
       </li>
-      <li className="menu-item-has-children">
+       
+      <li >
+        <Link to="/service/tyre-repair">
+           Repair tyre
+        </Link>
+    
+
+      </li>    
+      <li >
+        <Link to="/service/buy-new-tyre">
+         New Tyres 
+        </Link>
+    
+
+      </li>
+       <li >
+        <Link to="/service/new-battery-installation">
+          New Battery 
+        </Link>
+    
+
+      </li>  
+       {/* <li >
+        <Link to="/service/tyre-replacement">
+          Tyre Replacement
+        </Link>
+    
+
+      </li> */}
+       
+
+       <li className="menu-item-has-children">
         <Link to="/service" onClick={() => setMobileToggle(false)}>
           All Services
         </Link>
@@ -80,38 +111,11 @@ export default function Nav({ setMobileToggle }) {
           </ul>
         </DropDown>
 
-      </li>  
-      <li >
-        <Link to="/service/tyre-repair">
-          Tyre Repair
-        </Link>
-    
-
-      </li>    
-      <li >
-        <Link to="/service/buy-new-tyre">
-          Buy New Tyre 
-        </Link>
-    
-
       </li>
-       <li >
-        <Link to="/service/new-battery-installation">
-          Battery Installation
-        </Link>
-    
 
-      </li>  
-       <li >
-        <Link to="/service/tyre-replacement">
-          Tyre Replacement
-        </Link>
-    
-
-      </li>
-       <li >
+      <li >
         <Link to="/service">
-         Spare Tyre Change 
+         Brands
         </Link>
     
 
