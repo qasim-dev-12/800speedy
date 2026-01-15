@@ -59,18 +59,27 @@ export default function Header1({ variant }) {
             <div className="cs_top_header_right">
             <div className="cs_header_social_links_wrap">
                 <div className="cs_header_social_links">
-                  <a href="#" className="cs_social_btn cs_center">
+                  <a href="https://www.facebook.com/800speedy" className="cs_social_btn cs_center">
+                  <i className="bi bi-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/800speedy" className="cs_social_btn cs_center">
                   <i className="bi bi-linkedin"></i>
                   </a>
-                  <a href="#" className="cs_social_btn cs_center">
+                   
+                  {/* <a href="#" className="cs_social_btn cs_center">
                   <i className="bi bi-twitter"></i>
                   </a>
                   <a href="#" className="cs_social_btn cs_center">
                   <i className="bi bi-youtube"></i>
-                  </a>
-                  <a href="#" className="cs_social_btn cs_center">
-                  <i className="bi bi-facebook"></i>
-                  </a>
+                  </a> */}
+                 
+<a href="https://www.instagram.com/800speedy" className="cs_social_btn cs_center">
+  <i className="bi bi-instagram"></i>
+</a>
+
+<a href="https://www.tiktok.com/@800speedy" className="cs_social_btn cs_center">
+  <i className="bi bi-tiktok"></i>
+</a>
                 </div>
               </div>
             </div>

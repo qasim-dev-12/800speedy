@@ -159,7 +159,7 @@ button {
 
 a:hover {
   text-decoration: none;
-  color: var(--accent-color);
+  color: #46afb3;
 }
 
 table {
@@ -3070,7 +3070,7 @@ textarea {
   font-size: 16px;
 }
 .cs_footer_widget .cs_social_btns.cs_style_1 a:hover {
-  background-color: var(--accent-color);
+  background-color: var(--white-color);
 }
 
 .cs_footer_widget_seperator {
@@ -3100,7 +3100,10 @@ textarea {
 .cs_footer_menu li {
   padding-left: 25px;
   position: relative;
+  /* border: 3px solid red; */
+  
 }
+
 .cs_footer_menu li:not(:last-child) {
   margin-bottom: 12px;
 }

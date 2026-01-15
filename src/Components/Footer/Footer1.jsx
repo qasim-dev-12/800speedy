@@ -31,21 +31,30 @@ const Footer1 = () => {
                     <span className="cs_white_bg"></span>
                   </div>
                   <div className="cs_text_widget">
-                    <p>Phosfluorescently transform out-of-the-box paradigms whereas accurate supply chains. Continually</p>
+                    <p>800 SPEEDY provides fast, reliable on-site tyre and battery assistance. From puncture repairs to battery replacement, our expert technicians ensure quick, safe, and hassle-free roadside support whenever you need it</p>
                   </div>
                   <div className="cs_social_btns cs_style_1">
-                    <a href="#" className="cs_social_btn cs_center">
-                    <i className="bi bi-linkedin"></i>
-                    </a>
-                    <a href="#" className="cs_social_btn cs_center">
-                    <i className="bi bi-twitter"></i>
-                    </a>
-                    <a href="#" className="cs_social_btn cs_center">
-                    <i className="bi bi-youtube"></i>
-                    </a>
-                    <a href="#" className="cs_social_btn cs_center">
-                    <i className="bi bi-facebook"></i>
-                    </a>
+                       <a href="https://www.facebook.com/800speedy" className="cs_social_btn cs_center">
+                  <i className="bi bi-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/800speedy" className="cs_social_btn cs_center">
+                  <i className="bi bi-linkedin"></i>
+                  </a>
+                   
+                  {/* <a href="#" className="cs_social_btn cs_center">
+                  <i className="bi bi-twitter"></i>
+                  </a>
+                  <a href="#" className="cs_social_btn cs_center">
+                  <i className="bi bi-youtube"></i>
+                  </a> */}
+                 
+<a href="https://www.instagram.com/800speedy" className="cs_social_btn cs_center">
+  <i className="bi bi-instagram"></i>
+</a>
+
+<a href="https://www.tiktok.com/@800speedy" className="cs_social_btn cs_center">
+  <i className="bi bi-tiktok"></i>
+</a>
                   </div>
                 </div>
               </div>
@@ -59,19 +68,22 @@ const Footer1 = () => {
                   </div>
                   <ul className="cs_footer_menu">
                     <li>
-                      <Link to="/service/service-details">Adult In Car Lessons</Link>
+                      <Link to="/service/tyre-repair">Repair Tyre</Link>
                     </li>
                     <li>
-                      <Link to="/service/service-details">Defensive Driving</Link>
+                      <Link to="/service/buy-new-tyre">New Tyres</Link>
                     </li>
                     <li>
-                      <Link to="/service/service-details">Defensive Driving</Link>
+                      <Link to="/service/new-battery-installation">New Battery</Link>
                     </li>
                     <li>
-                      <Link to="/service/service-details">Initial driving lesson</Link>
+                      <Link to="/service/battery-health-check">Battery Health Check </Link>
                     </li>
                     <li>
-                      <Link to="/service/service-details">Woman Education</Link>
+                      <Link to="/service/spare-tyre-change">Spare Tyre Change</Link>
+                    </li>
+                     <li>
+                      <Link to="/service/tyre-replacement"> Tyre Replacement</Link>
                     </li>
                   </ul>
                 </div>
@@ -139,9 +151,9 @@ const Footer1 = () => {
                <a style={{color:"#fff"}} href="#">
                 © 800speedy 2026 | All Rights Reserved </a>
               </div>
-              <div>
+              {/* <div>
                 <img src="/assets/img/payment_card.svg" alt="" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
