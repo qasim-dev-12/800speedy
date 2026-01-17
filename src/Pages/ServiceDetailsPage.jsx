@@ -14,6 +14,7 @@ const ServiceDetailsPage = () => {
                         <BreadCumb
                             bgImg={service?.image}
                             Title="Service Details"
+                            title={service?.title}
                         ></BreadCumb> 
             <ServiceDetails service={service}></ServiceDetails>           
         </div>

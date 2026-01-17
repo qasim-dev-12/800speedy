@@ -159,10 +159,23 @@ const ServiceDetails = ({service}) => {
                     <p className="cs_card_subtitle cs_white_color cs_mb_33">We use professional diagnostic tools and equipment.
 Our certified technicians ensure safe, reliable repairs.
 Fast response and quality service you can trust.</p>
-                    <Link to="/about" className="cs_card_btn">
-                      <span>Read more</span>
-                      <span><i className="bi bi-arrow-right"></i></span>
-                    </Link>
+                     <div class="button-wrapper-1 hero-whatsapp">
+
+
+  <a href="https://api.whatsapp.com/send/?phone=0543170355"
+     class="custom-btn whatsapp-btn wobble-btn">
+    <img src="/assets/img/icons/whtsapp.png" alt="WhatsApp" class="btn-icon" />
+    <span>WhatsApp</span>
+  </a>
+
+ 
+  <a href="tel:0543170355"
+     class="custom-btn call-btn wobble-btn">
+    <img src="/assets/img/icons/call.png" alt="Call Us" class="btn-icon" />
+    <span>Call</span>
+  </a>
+
+</div>
                   </div>
                 </div>
               </div>

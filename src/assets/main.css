@@ -7798,9 +7798,7 @@ label {
 
 
   
-  body {
-    padding-bottom: 80px; /* prevent content from hiding behind sticky buttons */
-  }
+
   
   
 }
