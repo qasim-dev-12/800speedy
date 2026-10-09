@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="1000" height="650">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1C2D" />
+      <stop offset="1" stop-color="#01133C" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="650" rx="14" fill="url(#g3)" />
+  <circle cx="840" cy="110" r="220" fill="#ffffff" opacity="0.03" />
+  <circle cx="110" cy="560" r="170" fill="#ffffff" opacity="0.03" />
+  <g transform="translate(427,230)" fill="none" stroke="#00F7FE" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="78" height="165" rx="18" />
+    <path d="M78 45 L138 22 C148 18 159 26 159 38 L159 120 C159 132 148 140 139 134 L78 102" />
+    <circle cx="159" cy="120" r="14" />
+    <path d="M18 0 L18 -27 C18 -38 27 -43 36 -43" />
+    <path d="M181 76 C197 92 197 114 181 130" />
+    <path d="M199 60 C222 82 222 144 199 166" />
+  </g>
+  <text x="500" y="520" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="1">ON-SITE FUEL DELIVERY</text>
+  <text x="500" y="558" text-anchor="middle" fill="#00F7FE" font-family="Arial, sans-serif" font-size="16" letter-spacing="3">PETROL &amp; DIESEL · DELIVERED TO YOU</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="g4a" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1C2D" />
+      <stop offset="1" stop-color="#01133C" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#g4a)" />
+  <circle cx="500" cy="80" r="150" fill="#ffffff" opacity="0.03" />
+  <g transform="translate(220,115)" fill="none" stroke="#00F7FE" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="58" height="122" rx="13" />
+    <path d="M58 33 L102 16 C110 13 118 19 118 28 L118 89 C118 98 110 104 103 99 L58 76" />
+    <circle cx="118" cy="89" r="10" />
+    <path d="M13 0 L13 -20 C13 -28 20 -32 27 -32" />
+  </g>
+  <text x="300" y="340" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="1">FUEL CANISTER READY</text>
+  <text x="300" y="368" text-anchor="middle" fill="#00F7FE" font-family="Arial, sans-serif" font-size="13" letter-spacing="3">800 SPEEDY</text>
+</svg>

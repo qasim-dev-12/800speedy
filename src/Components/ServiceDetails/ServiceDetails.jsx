@@ -146,6 +146,10 @@ const ServiceDetails = ({service}) => {
                       <span>Quick JumpStart</span>
                       <span><i className="bi bi-arrow-right"></i></span>
                     </Link></li>
+                      <li><Link to="/service/onsite-fuel-delivery">
+                      <span>On-Site Fuel Delivery</span>
+                      <span><i className="bi bi-arrow-right"></i></span>
+                    </Link></li>
                   </ul>
                 </div>
                 <div className="cs_sidebar_widget cs_accent_bg">

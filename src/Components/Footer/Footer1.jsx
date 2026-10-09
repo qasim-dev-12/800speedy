@@ -85,6 +85,9 @@ const Footer1 = () => {
                      <li>
                       <Link to="/service/tyre-replacement"> Tyre Replacement</Link>
                     </li>
+                    <li>
+                      <Link to="/service/onsite-fuel-delivery">On-Site Fuel Delivery</Link>
+                    </li>
                   </ul>
                 </div>
               </div>

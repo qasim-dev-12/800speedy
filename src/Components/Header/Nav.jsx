@@ -108,6 +108,11 @@ export default function Nav({ setMobileToggle }) {
                 Quick JumpStart
               </Link>
             </li>
+            <li>
+              <Link to="/service/onsite-fuel-delivery" onClick={() => setMobileToggle(false)}>
+                On-Site Fuel Delivery
+              </Link>
+            </li>
           </ul>
         </DropDown>
 

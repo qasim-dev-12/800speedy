@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="g4b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#01133C" />
+      <stop offset="1" stop-color="#0B1C2D" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#g4b)" />
+  <circle cx="90" cy="370" r="150" fill="#ffffff" opacity="0.03" />
+  <g transform="translate(220,115)" fill="none" stroke="#00F7FE" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="60" cy="10" r="34" />
+    <path d="M60 44 L60 95" />
+    <path d="M30 70 L90 70" />
+    <path d="M18 122 L102 122 L90 95 L30 95 Z" />
+  </g>
+  <text x="300" y="340" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="1">ROADSIDE REFUEL</text>
+  <text x="300" y="368" text-anchor="middle" fill="#00F7FE" font-family="Arial, sans-serif" font-size="13" letter-spacing="3">800 SPEEDY</text>
+</svg>

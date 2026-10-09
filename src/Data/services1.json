@@ -387,10 +387,53 @@
   "img1": "/assets/img/twoservicesimgs/09a-jumper-cables-connection.png",
   "img2": "/assets/img/twoservicesimgs/09b-engine-start-success.png",
   "img3": "/assets/img/sericequalityimgs/quick-jump-start-service-quality.png"
-    
-  
-    
-  }   
+
+
+
+  },
+  {
+    "img": "/assets/img/service_img_11.svg",
+    "icon": "/assets/img/icons/fuel-delivery.svg",
+    "title": "ON-SITE FUEL DELIVERY",
+    "desc": "Emergency petrol or diesel delivery straight to your location when you run out of fuel on the road.",
+    "btnText": "READ MORE",
+    "btnLink": "/service/onsite-fuel-delivery",
+    "slug": "onsite-fuel-delivery",
+    "heading_title": "Reliable On-Site Fuel Delivery Service",
+    "p1": "Running out of fuel can happen at the worst possible time, leaving you stranded on the road or stuck in traffic. Our on-site fuel delivery service brings petrol or diesel directly to your vehicle's location, so you don't have to walk to a station or wait for a tow.",
+    "p2": "Our technicians arrive quickly with the correct fuel type for your vehicle, measured and poured safely to get you back on the road within minutes. Whether you're on the highway, at home, or at work, we deliver the fuel you need without the hassle of finding a nearby station.",
+    "pS": "We carry quality fuel, use proper safety equipment, and measure every delivery accurately. Our priority is getting you moving again quickly and safely, without any risk to your vehicle.",
+
+    "point1": "Fast Emergency Response",
+    "point2": "Correct Fuel, Measured Accurately",
+    "point3": "Safe Handling & Delivery",
+    "point4": "Back on the Road in Minutes",
+
+    "faqs": [
+      {
+        "title": "Do You Deliver Fuel On-Site?",
+        "desc": "Yes, we deliver petrol or diesel directly to your vehicle's location, wherever you are stranded."
+      },
+      {
+        "title": "How Fast Is the Fuel Delivery?",
+        "desc": "Our technicians aim to reach you as quickly as possible, usually within 20–30 minutes depending on your location."
+      },
+      {
+        "title": "What Type of Fuel Do You Deliver?",
+        "desc": "We deliver both petrol and diesel, matched to your vehicle's requirements."
+      },
+      {
+        "title": "Is It Safe to Refuel on the Roadside?",
+        "desc": "Yes, our technicians follow strict safety procedures and use proper equipment for every roadside refuel."
+      }
+    ],
+
+    "image": "/assets/img/10-onsite-fuel-delivery-service-banner.svg",
+    "main": "/assets/img/onsite-fuel-delivery-main.svg",
+    "img1": "/assets/img/twoservicesimgs/10a.svg",
+    "img2": "/assets/img/twoservicesimgs/10b.svg",
+    "img3": "/assets/img/sericequalityimgs/onsite-fuel-delivery-service-quality.svg"
+  }
 ]
 
 

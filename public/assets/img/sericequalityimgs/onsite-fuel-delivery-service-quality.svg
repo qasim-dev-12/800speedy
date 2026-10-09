@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 550" width="700" height="550">
+  <defs>
+    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1C2D" />
+      <stop offset="1" stop-color="#01133C" />
+    </linearGradient>
+  </defs>
+  <rect width="700" height="550" rx="12" fill="url(#g5)" />
+  <circle cx="590" cy="100" r="170" fill="#ffffff" opacity="0.03" />
+  <circle cx="80" cy="470" r="140" fill="#ffffff" opacity="0.03" />
+  <g transform="translate(297,195)" fill="none" stroke="#00F7FE" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="64" height="135" rx="15" />
+    <path d="M64 37 L113 18 C122 15 131 22 131 32 L131 98 C131 108 122 115 114 110 L64 84" />
+    <circle cx="131" cy="98" r="11" />
+    <path d="M14 0 L14 -22 C14 -31 22 -35 30 -35" />
+    <path d="M149 62 C162 75 162 95 149 108" />
+  </g>
+  <text x="350" y="420" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="1">SERVICE QUALITY</text>
+  <text x="350" y="454" text-anchor="middle" fill="#00F7FE" font-family="Arial, sans-serif" font-size="15" letter-spacing="3">800 SPEEDY · ON-SITE FUEL DELIVERY</text>
+</svg>

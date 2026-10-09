@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500" width="1600" height="500">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1C2D" />
+      <stop offset="1" stop-color="#01133C" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="500" fill="url(#g2)" />
+  <circle cx="1350" cy="100" r="260" fill="#ffffff" opacity="0.03" />
+  <circle cx="150" cy="430" r="200" fill="#ffffff" opacity="0.03" />
+  <g transform="translate(730,175)" fill="none" stroke="#00F7FE" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="70" height="148" rx="16" />
+    <path d="M70 40 L124 20 C133 16 143 23 143 34 L143 108 C143 119 133 126 125 120 L70 92" />
+    <circle cx="143" cy="108" r="12" />
+    <path d="M16 0 L16 -24 C16 -34 24 -39 32 -39" />
+    <path d="M162 68 C176 82 176 102 162 116" />
+    <path d="M178 54 C198 74 198 130 178 150" />
+  </g>
+  <text x="800" y="390" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="1">ON-SITE FUEL DELIVERY</text>
+  <text x="800" y="430" text-anchor="middle" fill="#00F7FE" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">800 SPEEDY</text>
+</svg>
