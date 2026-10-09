@@ -7290,6 +7290,9 @@ label {
 .cs_nav .cs_nav_list > li > a:hover{
   color: var(--accent-color);
 }
+.cs_nav .cs_nav_list ul li a:hover {
+  color: var(--accent-color);
+}
 .cs_header_social_links_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
